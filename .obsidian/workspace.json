@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "370fbc42f64d03b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "6972bc19ca022047",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6a73d23c2468275",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ctf/WEB/题解/NewStar2023复现/week1/Begin of HTTP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0c8f784b86c2c577",
+    "type": "split",
+    "children": [
+      {
+        "id": "f208ae4e6279f63b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80753a55136797d8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2fba131b19c36c1c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "34d84c7e54284280",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "90a9a7ce21a3f3ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "63108292e09e6894",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18cb306c7d0f7adf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ctf/WEB/题解/NewStar2023复现/week1/Begin of HTTP.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7ffedd3d061f76e2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ctf/WEB/题解/NewStar2023复现/week1/Begin of HTTP.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "57590dd7bfa6d9c8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cbaf4076e55f5129",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ctf/WEB/题解/NewStar2023复现/week1/Begin of HTTP.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "f6a73d23c2468275",
+  "lastOpenFiles": [
+    "Pasted image 20240821110110.png",
+    "ctf/WEB/题解/NewStar2023复现/week1/Begin of HTTP.md",
+    "Pasted image 20240821111018.png",
+    "Pasted image 20240821110801.png",
+    "Pasted image 20240821110714.png",
+    "Pasted image 20240821110636.png",
+    "Pasted image 20240821110224.png",
+    "AI学习/LLM大模型学习/Task2.md",
+    "AI学习/本地化部署Llama3.md"
+  ]
+}
