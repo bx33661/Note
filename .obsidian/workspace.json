@@ -11,12 +11,8 @@
             "id": "f6a73d23c2468275",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ctf/WEB/原理/文件包含.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ctf/WEB/原理/文件包含.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ctf/WEB/原理/文件包含.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ctf/WEB/原理/文件包含.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,21 +140,47 @@
   },
   "active": "f6a73d23c2468275",
   "lastOpenFiles": [
-    "ctf/WEB/资源.md",
-    "ctf/WEB/培训/web课第一节.md",
-    "ctf/WEB/培训/WEB第三节课WP.md",
-    "ctf/WEB/培训/web第二节作业.md",
-    "ctf/WEB/培训",
-    "ctf/WEB/新建文件夹",
-    "ctf/WEB/题解/NewStar2023复现/week2/include 0。0.md",
-    "ctf/WEB/题解/NewStar2023复现/week1/Begin of HTTP.md",
+    "ctf/WEB/原理/文件包含.md",
+    "CTF/WEB/题解/NewStar2023复现/week1/ErrorFlask.md",
+    "CTF/WEB/题解/NewStar2023复现/week1/泄露的秘密.md",
+    "CTF/WEB/题解/NewStar2023复现/week1/R!C!E!.md",
+    "CTF/WEB/题解/NewStar2023复现/week2/飞机大战.md",
+    "CTF/WEB/题解/NewStar2023复现/week2/include 0。0.md",
+    "CTF/WEB/题解/NewStar2023复现/week1/Begin of Upload.md",
+    "CTF/WEB/题解/NewStar2023复现/week1/Begin of PHP.md",
+    "CTF/WEB/题解/NewStar2023复现/week1/Begin of HTTP.md",
+    "CTF/WEB/题解/NewStar2023复现/week1/Easylogin.md",
+    "CTF/WEB/题解/NewStar2023复现/week2",
+    "CTF/WEB/题解/NewStar2023复现/week1",
+    "CTF/WEB/培训/web第二节作业.md",
+    "CTF/WEB/培训/web课第一节.md",
+    "CTF/WEB/培训/WEB第三节课WP.md",
+    "CTF/WEB/题解/攻防世界-php2.md",
+    "CTF/WEB/题解/[极客大挑战 2019]BuyFlag.md",
+    "CTF/WEB/题解/[极客大挑战 2019]Upload.md",
+    "CTF/WEB/题解/[护网杯 2018]easy_tornado.md",
+    "CTF/WEB/题解/[RoarCTF 2019]Easy Calc.md",
+    "CTF/WEB/题解/[NSSRound#13 Basic]flaskjwt.md",
+    "CTF/WEB/题解/[NSSRound#1 Basic]basic_check.md",
+    "CTF/WEB/题解/[BJDCTF2020]Easy MD5.md",
+    "CTF/WEB/题解/[ACTF2020 新生赛]BackupFile.md",
+    "CTF/WEB/题解/NewStar2023复现",
+    "CTF/WEB/题解/BugKu.md",
+    "CTF/WEB/原理/文件日志泄露.md",
+    "CTF/WEB/原理/文件包含.md",
+    "CTF/WEB/原理/web靶场搭建.md",
+    "CTF/WEB/培训",
+    "CTF/WEB/题解",
+    "CTF/WEB/原理",
+    "CTF/WEB/CTFSHOW",
+    "CTF/Misc/什么也没有.txt",
+    "CTF/WEB",
+    "CTF/Misc",
     "Pasted image 20240821110110.png",
     "Pasted image 20240821111018.png",
     "Pasted image 20240821110801.png",
     "Pasted image 20240821110714.png",
     "Pasted image 20240821110636.png",
-    "Pasted image 20240821110224.png",
-    "AI学习/LLM大模型学习/Task2.md",
-    "AI学习/本地化部署Llama3.md"
+    "Pasted image 20240821110224.png"
   ]
 }
