@@ -255,3 +255,20 @@ if __name__ == "__main__":
     main()
 ```
 
+
+
+
+
+
+
+```
+<?php
+highlight_file(__FILE__);
+    if(!preg_match("/<|\?|php|>|echo|filter|system|file|%|&|=|`|eval/i",$_GET['data'])){
+        include $_GET['data'];
+    }else{
+    	die("dangerous function detect!");
+    };
+?>
+```
+
