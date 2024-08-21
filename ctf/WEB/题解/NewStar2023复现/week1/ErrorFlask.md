@@ -8,4 +8,4 @@
 
 报错输入：
 
-![image-20240821142901152](C:/Users/lenovo/Desktop/%E7%B4%A0%E6%9D%90%E5%BA%93/%E7%B4%A0%E6%9D%90/image-20240821142901152.png)
+![image-20240821142901152](https://gitee.com/bx33661/image/raw/master/path/image-20240821142901152.png)

@@ -6,7 +6,7 @@
 
 1. 进入页面发现需要登录，尝试一下登录不进去，我们就注册一个账号，登录进入另一个界面
 
-   ![image-20240821153816950](C:/Users/lenovo/Desktop/%E7%B4%A0%E6%9D%90%E5%BA%93/%E7%B4%A0%E6%9D%90/image-20240821153816950.png)
+   ![image-20240821153816950](https://gitee.com/bx33661/image/raw/master/path/image-20240821153816950.png)
 
    点击拿flag，得到我不是admin的提示
 
