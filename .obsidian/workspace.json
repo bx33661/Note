@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ctf/WEB/题解/NewStar2023复现/week1/Begin of HTTP.md",
+                "file": "ctf/WEB/原理/文件包含.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ctf/WEB/题解/NewStar2023复现/week1/Begin of HTTP.md",
+                "file": "ctf/WEB/原理/文件包含.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ctf/WEB/题解/NewStar2023复现/week1/Begin of HTTP.md",
+                "file": "ctf/WEB/原理/文件包含.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ctf/WEB/题解/NewStar2023复现/week1/Begin of HTTP.md"
+                "file": "ctf/WEB/原理/文件包含.md"
               }
             }
           }
@@ -148,8 +148,15 @@
   },
   "active": "f6a73d23c2468275",
   "lastOpenFiles": [
-    "Pasted image 20240821110110.png",
+    "ctf/WEB/资源.md",
+    "ctf/WEB/培训/web课第一节.md",
+    "ctf/WEB/培训/WEB第三节课WP.md",
+    "ctf/WEB/培训/web第二节作业.md",
+    "ctf/WEB/培训",
+    "ctf/WEB/新建文件夹",
+    "ctf/WEB/题解/NewStar2023复现/week2/include 0。0.md",
     "ctf/WEB/题解/NewStar2023复现/week1/Begin of HTTP.md",
+    "Pasted image 20240821110110.png",
     "Pasted image 20240821111018.png",
     "Pasted image 20240821110801.png",
     "Pasted image 20240821110714.png",
