@@ -11,12 +11,8 @@
             "id": "f6a73d23c2468275",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CTF/WEB/题解/NewStar2023复现/week1/Easylogin.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/WEB/题解/NewStar2023复现/week1/Easylogin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/WEB/题解/NewStar2023复现/week1/Easylogin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CTF/WEB/题解/NewStar2023复现/week1/Easylogin.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,6 +140,8 @@
   },
   "active": "f6a73d23c2468275",
   "lastOpenFiles": [
+    "CTF/WEB/原理/sqlmap.md",
+    "CTF/WEB/题解/NewStar2023复现/week1/Easylogin.md",
     "CTF/WEB/题解/NewStar2023复现/week1/Begin of PHP.md",
     "CTF/WEB/题解/NewStar2023复现/week1/Begin of HTTP.md",
     "CTF/WEB/题解/NewStar2023复现/week1/泄露的秘密.md",
@@ -157,7 +151,6 @@
     "CTF/WEB/题解/NewStar2023复现/week2/飞机大战.md",
     "CTF/WEB/题解/NewStar2023复现/week2/include 0。0.md",
     "CTF/WEB/题解/NewStar2023复现/week1/Begin of Upload.md",
-    "CTF/WEB/题解/NewStar2023复现/week1/Easylogin.md",
     "CTF/WEB/题解/NewStar2023复现/week2",
     "CTF/WEB/题解/NewStar2023复现/week1",
     "CTF/WEB/培训/web第二节作业.md",
@@ -176,7 +169,6 @@
     "CTF/WEB/题解/BugKu.md",
     "CTF/WEB/原理/文件日志泄露.md",
     "CTF/WEB/原理/文件包含.md",
-    "CTF/WEB/原理/web靶场搭建.md",
     "CTF/WEB/培训",
     "CTF/WEB/题解",
     "CTF/WEB/原理",

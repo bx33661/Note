@@ -94,9 +94,10 @@ www.zip泄露，url/www.zip
 ## web11：
 利用nslookup
 
----
+
 
 ## web12：
+
 ![image.png](https://cdn.nlark.com/yuque/0/2024/png/42994824/1715866144361-c7311823-5eea-42ac-99a1-c861cf2704f0.png#averageHue=%23fefdfd&clientId=ube4643aa-6a3a-4&from=paste&height=413&id=udac0cc20&originHeight=620&originWidth=1108&originalType=binary&ratio=1.5&rotation=0&showTitle=false&size=106846&status=done&style=none&taskId=u84a2ae47-1128-467d-b449-c10b621331c&title=&width=738.6666666666666)
 经过提示我们需要在网站上寻找可用资源
 先扫描一下，发现robots.txt
@@ -113,3 +114,24 @@ password:
 
 得到flag
 ![image.png](https://cdn.nlark.com/yuque/0/2024/png/42994824/1715866600014-fdd36dd5-91cb-4e50-b81f-956227ede97c.png#averageHue=%23e9e9e4&clientId=u318d9ff5-3e66-4&from=paste&height=154&id=u4c7b9cb4&originHeight=231&originWidth=1048&originalType=binary&ratio=1.5&rotation=0&showTitle=false&size=39744&status=done&style=none&taskId=u89846e7f-8879-4d50-be03-4aa78e830b4&title=&width=698.6666666666666)
+
+
+
+
+
+### web18
+
+![image-20240822160722509](https://gitee.com/bx33661/image/raw/master/path/image-20240822160722509.png)
+
+进入界面是一个js游戏，于是查看源代码，
+
+```javascript
+if(score>100)
+{
+var result=window.confirm("\u4f60\u8d62\u4e86\uff0c\u53bb\u5e7a\u5e7a\u96f6\u70b9\u76ae\u7231\u5403\u76ae\u770b\u770b");
+}
+```
+
+利用`union解码` ：`你赢了，去幺幺零点皮爱吃皮看看`
+
+进入`110.php`得到flag
