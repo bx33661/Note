@@ -10,13 +10,17 @@
 
 等号=> `like`
 
-### `#`号
+### 注释符号
 
-- url编码 => `%23`
+![image-20240904121322640](https://gitee.com/bx33661/image/raw/master/path/image-20240904121322640.png)
 
+1. `#` 需要写成编码形式-`%23`
+2. `--+`:因为SQL中的`-- `注释后面有一个空格，所以在url下常被写作`--+`
+3. `/*`
 
-
-
+> 这里涉及一个URL编码的过程，之前有点混乱，我查了一下：
+>
+> 具体笔记我整理在
 
 ### 需要注意的
 
@@ -157,16 +161,31 @@ python sqlmap.py -u "https://xxx/" --purge
 
 6个基本流程：
 
-1. 判断注入类型
-2. 查列数
-3. 确定字段位置
-4. 查表名称
-5. 查列名称
-6. 获取目标数据
+1. 判断注入类型：字符型 or 整数型------ **目的就是要构造闭合**
+
+1. 查列数
+2. 确定字段位置
+3. 查表名称
+4. 查列名称
+5. 获取目标数据
+
+数据库的结构一般是：*数据库（database）*-> *表(tables)* -> *列(column)* -> *数据(data)*
 
 
 
+做题中的一个例子：题目的语法如下，GET的参数是id
 
+```php
+<?php
+$sql = "SELECT username,password FROM users WHERE id = ".'(((((('.$_GET["id"].'))))))';
+$result = $conn->query($sql);
+```
+
+```
+?id=-1)))))).....
+```
+
+需要添加相应的括号使6层括号闭合，才能执行后面的代码！
 
 
 
@@ -322,6 +341,28 @@ for i in range(1, 50):
 ### 报错注入
 
 
+
+
+
+### 堆叠注入
+
+就是，一堆 sql 语句(多条)一起执行
+
+> 与联合注入的区别：`union`执行语句类型是有限的，只可以用来执行查询语句，而堆叠注入则可以执行更多种类的sql语句
+
+当后台使用**mysql_query()** 则不能使用堆叠
+
+mysql_query()向与指定的 `link_identifier` 关联的服务器中的当前活动数据库发送一条查询（不支持多条查询）
+
+```sql
+show databases;
+show tables;
+show columns from table;
+
+handler {TABLE} open;
+handler {TABLE} read first;
+handler {TABLE} close;
+```
 
 
 
