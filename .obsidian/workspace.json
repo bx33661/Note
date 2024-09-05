@@ -11,12 +11,8 @@
             "id": "11799eaa25ef3435",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CTF/WEB/CTFSHOW/ctfshow- 文件包含.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/WEB/CTFSHOW/ctfshow- 文件包含.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/WEB/CTFSHOW/ctfshow- 文件包含.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CTF/WEB/CTFSHOW/ctfshow- 文件包含.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,20 +138,40 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "11799eaa25ef3435",
+  "active": "80753a55136797d8",
   "lastOpenFiles": [
+    "CTF/WEB/电子书-源于网络/hello-algo-1.1.0-zh-cpp.pdf",
+    "CTF/WEB/电子书-源于网络/CTFHub SQL字符串型.pdf",
+    "CTF/WEB/电子书-源于网络/BurpSuite基础教程第二发：Proxy模块(代理模块) - 简书.pdf",
+    "CTF/WEB/电子书-源于网络/[SWPUCTF 2021 新生赛]sql-绕过.pdf",
+    "CTF/WEB/电子书-源于网络/sqlmap用户手册.pdf",
+    "CTF/WEB/电子书-源于网络/go语言开发.pdf",
+    "CTF/WEB/电子书-源于网络/日志文件包含漏洞 - GTL_JU - 博客园.pdf",
+    "CTF/WEB/电子书-源于网络/日志文件包含 – drinkflower's blog.pdf",
+    "CTF/WEB/电子书-源于网络/SSTI 注入 - Hello CTF.pdf",
+    "CTF/WEB/电子书-源于网络",
+    "CTF/WEB/新建文件夹",
+    "CTF/WEB/原理/JWT.md",
+    "CTF/WEB/题解/ez_sql.md",
+    "CTF/WEB/题解/BUUCTF- [ZJCTF 2019]NiZhuanSiWei.md",
+    "工程学习/系统/Bash命令.md",
+    "CTF/WEB/题解/BUU SQL COURSE 1.md",
+    "CTF/WEB/题解/[极客大挑战 2019]LoveSQL.md",
+    "软件使用/PhotoShop/头像.jpg",
+    "软件使用/PhotoShop/课程素材1.jpg",
+    "软件使用/PhotoShop/微信图片_20240903200430.jpg",
+    "工程学习/Pyhton/Python连接Mysql.md",
+    "CTF/WEB/CTFSHOW/ctfshow- 文件包含.md",
     "CTF/WEB/CTFSHOW/ctfshow-sql注入.md",
     "CTF/WEB/CTFSHOW/CTFSHOW-WEB-萌新赛.md",
     "CTF/WEB/CTFSHOW/PHP的特性.md",
     "CTF/WEB/原理/文件包含.md",
     "Pasted image 20240905163640.png",
-    "CTF/WEB/CTFSHOW/ctfshow- 文件包含.md",
     "Pasted image 20240905163110.png",
     "CTF/WEB/CTFSHOW/CTFshow web入门——爆破.md",
     "Pasted image 20240905145927.png",
     "CTF/WEB/CTFSHOW/SSRF.md",
     "未命名.canvas",
-    "CTF/WEB/原理/JWT基础知识.pdf",
     "CTF/WEB/原理/sqlmap.md",
     "CTF/WEB/题解/NewStar2023复现/week1/Easylogin.md",
     "CTF/WEB/题解/NewStar2023复现/week1/Begin of PHP.md",
@@ -171,27 +183,9 @@
     "CTF/WEB/题解/NewStar2023复现/week2/飞机大战.md",
     "CTF/WEB/题解/NewStar2023复现/week2/include 0。0.md",
     "CTF/WEB/题解/NewStar2023复现/week1/Begin of Upload.md",
-    "CTF/WEB/题解/NewStar2023复现/week2",
-    "CTF/WEB/题解/NewStar2023复现/week1",
-    "CTF/WEB/培训/web第二节作业.md",
-    "CTF/WEB/培训/web课第一节.md",
-    "CTF/WEB/培训/WEB第三节课WP.md",
-    "CTF/WEB/题解/攻防世界-php2.md",
-    "CTF/WEB/题解/[极客大挑战 2019]BuyFlag.md",
-    "CTF/WEB/题解/[极客大挑战 2019]Upload.md",
-    "CTF/WEB/题解/[护网杯 2018]easy_tornado.md",
-    "CTF/WEB/题解/NewStar2023复现",
-    "CTF/WEB/培训",
-    "CTF/WEB/题解",
-    "CTF/WEB/原理",
-    "CTF/WEB/CTFSHOW",
-    "CTF/Misc/什么也没有.txt",
-    "CTF/WEB",
     "Pasted image 20240821110110.png",
     "Pasted image 20240821111018.png",
     "Pasted image 20240821110801.png",
-    "Pasted image 20240821110714.png",
-    "Pasted image 20240821110636.png",
-    "Pasted image 20240821110224.png"
+    "Pasted image 20240821110714.png"
   ]
 }
