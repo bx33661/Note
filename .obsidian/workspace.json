@@ -65,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "90a9a7ce21a3f3ff",
@@ -140,6 +140,12 @@
   },
   "active": "f6a73d23c2468275",
   "lastOpenFiles": [
+    "CTF/WEB/CTFSHOW/ctfshow-sql注入.md",
+    "CTF/WEB/CTFSHOW/CTFshow web入门——爆破.md",
+    "CTF/WEB/CTFSHOW/ctfshow- 文件包含.md",
+    "未命名.canvas",
+    "CTF/WEB/原理/文件包含.md",
+    "CTF/WEB/原理/JWT基础知识.pdf",
     "CTF/WEB/原理/sqlmap.md",
     "CTF/WEB/题解/NewStar2023复现/week1/Easylogin.md",
     "CTF/WEB/题解/NewStar2023复现/week1/Begin of PHP.md",
@@ -164,18 +170,13 @@
     "CTF/WEB/题解/[NSSRound#13 Basic]flaskjwt.md",
     "CTF/WEB/题解/[NSSRound#1 Basic]basic_check.md",
     "CTF/WEB/题解/[BJDCTF2020]Easy MD5.md",
-    "CTF/WEB/题解/[ACTF2020 新生赛]BackupFile.md",
     "CTF/WEB/题解/NewStar2023复现",
-    "CTF/WEB/题解/BugKu.md",
-    "CTF/WEB/原理/文件日志泄露.md",
-    "CTF/WEB/原理/文件包含.md",
     "CTF/WEB/培训",
     "CTF/WEB/题解",
     "CTF/WEB/原理",
     "CTF/WEB/CTFSHOW",
     "CTF/Misc/什么也没有.txt",
     "CTF/WEB",
-    "CTF/Misc",
     "Pasted image 20240821110110.png",
     "Pasted image 20240821111018.png",
     "Pasted image 20240821110801.png",
