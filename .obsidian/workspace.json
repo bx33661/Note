@@ -11,8 +11,12 @@
             "id": "11799eaa25ef3435",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "工程学习/PHP/文件操作.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "工程学习/PHP/文件操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "工程学习/PHP/文件操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "工程学习/PHP/文件操作.md"
+              }
             }
           }
         ]
@@ -138,8 +146,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "80753a55136797d8",
+  "active": "11799eaa25ef3435",
   "lastOpenFiles": [
+    "工程学习/PHP/require和include的用法和区别.md",
+    "工程学习/PHP/文件操作.md",
+    "工程学习/PHP/文件结构.md",
+    "工程学习/Go",
+    "工程学习/PHP",
+    "CTF/WEB/题解/NewStar2023复现/week3/RCE!!!.md",
+    "CTF/WEB/题解/NewStar2023复现/week3/Include 🍐.md",
     "CTF/WEB/电子书-源于网络/hello-algo-1.1.0-zh-cpp.pdf",
     "CTF/WEB/电子书-源于网络/CTFHub SQL字符串型.pdf",
     "CTF/WEB/电子书-源于网络/BurpSuite基础教程第二发：Proxy模块(代理模块) - 简书.pdf",
@@ -148,9 +163,6 @@
     "CTF/WEB/电子书-源于网络/go语言开发.pdf",
     "CTF/WEB/电子书-源于网络/日志文件包含漏洞 - GTL_JU - 博客园.pdf",
     "CTF/WEB/电子书-源于网络/日志文件包含 – drinkflower's blog.pdf",
-    "CTF/WEB/电子书-源于网络/SSTI 注入 - Hello CTF.pdf",
-    "CTF/WEB/电子书-源于网络",
-    "CTF/WEB/新建文件夹",
     "CTF/WEB/原理/JWT.md",
     "CTF/WEB/题解/ez_sql.md",
     "CTF/WEB/题解/BUUCTF- [ZJCTF 2019]NiZhuanSiWei.md",
@@ -179,10 +191,6 @@
     "CTF/WEB/题解/NewStar2023复现/week1/泄露的秘密.md",
     "ctf/WEB/原理/文件包含.md",
     "CTF/WEB/题解/NewStar2023复现/week1/ErrorFlask.md",
-    "CTF/WEB/题解/NewStar2023复现/week1/R!C!E!.md",
-    "CTF/WEB/题解/NewStar2023复现/week2/飞机大战.md",
-    "CTF/WEB/题解/NewStar2023复现/week2/include 0。0.md",
-    "CTF/WEB/题解/NewStar2023复现/week1/Begin of Upload.md",
     "Pasted image 20240821110110.png",
     "Pasted image 20240821111018.png",
     "Pasted image 20240821110801.png",
