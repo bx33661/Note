@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工程学习/PHP/双冒号.md",
+                "file": "工程学习/PHP/$_SERVER.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程学习/PHP/双冒号.md",
+                "file": "工程学习/PHP/$_SERVER.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程学习/PHP/双冒号.md",
+                "file": "工程学习/PHP/$_SERVER.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程学习/PHP/双冒号.md"
+                "file": "工程学习/PHP/$_SERVER.md"
               }
             }
           }
@@ -148,22 +148,24 @@
   },
   "active": "11799eaa25ef3435",
   "lastOpenFiles": [
-    "工程学习/PHP/文件操作.md",
+    "工程学习/PHP/仓库/常量.php",
+    "工程学习/PHP/仓库/json/json.php",
+    "工程学习/PHP/仓库/json/data.json",
+    "工程学习/PHP/仓库/json",
+    "工程学习/PHP/仓库/php基础/Globals全局变量/全局变量.php",
+    "工程学习/PHP/仓库/php基础/Globals全局变量/server.php",
+    "工程学习/PHP/仓库/php基础/Globals全局变量/phpinfo.php",
+    "工程学习/PHP/仓库/php基础/php-loops/foreach.php",
+    "工程学习/PHP/仓库/php基础/OOP/const.php",
+    "工程学习/PHP/仓库/php基础/Globals全局变量/ENV.php",
+    "工程学习/PHP/仓库/php基础/php-loops",
     "工程学习/PHP/双冒号.md",
+    "工程学习/PHP/$_SERVER.md",
+    "工程学习/PHP/文件操作.md",
     "工程学习/PHP/require和include的用法和区别.md",
     "工程学习/PHP/文件结构.md",
-    "工程学习/Go",
-    "工程学习/PHP",
     "CTF/WEB/题解/NewStar2023复现/week3/RCE!!!.md",
     "CTF/WEB/题解/NewStar2023复现/week3/Include 🍐.md",
-    "CTF/WEB/电子书-源于网络/hello-algo-1.1.0-zh-cpp.pdf",
-    "CTF/WEB/电子书-源于网络/CTFHub SQL字符串型.pdf",
-    "CTF/WEB/电子书-源于网络/BurpSuite基础教程第二发：Proxy模块(代理模块) - 简书.pdf",
-    "CTF/WEB/电子书-源于网络/[SWPUCTF 2021 新生赛]sql-绕过.pdf",
-    "CTF/WEB/电子书-源于网络/sqlmap用户手册.pdf",
-    "CTF/WEB/电子书-源于网络/go语言开发.pdf",
-    "CTF/WEB/电子书-源于网络/日志文件包含漏洞 - GTL_JU - 博客园.pdf",
-    "CTF/WEB/电子书-源于网络/日志文件包含 – drinkflower's blog.pdf",
     "CTF/WEB/原理/JWT.md",
     "CTF/WEB/题解/ez_sql.md",
     "CTF/WEB/题解/BUUCTF- [ZJCTF 2019]NiZhuanSiWei.md",
@@ -189,8 +191,6 @@
     "CTF/WEB/题解/NewStar2023复现/week1/Easylogin.md",
     "CTF/WEB/题解/NewStar2023复现/week1/Begin of PHP.md",
     "CTF/WEB/题解/NewStar2023复现/week1/Begin of HTTP.md",
-    "CTF/WEB/题解/NewStar2023复现/week1/泄露的秘密.md",
-    "ctf/WEB/原理/文件包含.md",
     "Pasted image 20240821110110.png",
     "Pasted image 20240821111018.png",
     "Pasted image 20240821110801.png",
