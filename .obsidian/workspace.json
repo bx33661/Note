@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "资料.md",
+                "file": "工程学习/Linux/Linux中权限.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "资料.md",
+                "file": "工程学习/Linux/Linux中权限.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "资料.md",
+                "file": "工程学习/Linux/Linux中权限.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "资料.md"
+                "file": "工程学习/Linux/Linux中权限.md"
               }
             }
           }
@@ -148,9 +148,20 @@
   },
   "active": "8eba2e295a083033",
   "lastOpenFiles": [
+    "工程学习/Linux/proc 目录.md",
+    "工程学习/Linux/Ubuntu软件安装.md",
+    "工程学习/Linux/etc.md",
+    "工程学习/Linux/Bash.md",
+    "工程学习/WEB/NodeJS/Node.js.md",
     "工程学习/Typescript/DW课程学习/Task one.md",
     "工程学习/Typescript/DW课程学习/Task two.md",
+    "工程学习/Linux/Linux下文件种类.md",
+    "工程学习/Linux/Linux中权限.md",
+    "工程学习/Linux/Linux创建用户.md",
     "资料.md",
+    "工程学习/Pyhton/conda.md",
+    "工程学习/Linux",
+    "工程学习/新建文件夹",
     "工程学习/PHP/$_SERVER.md",
     "工程学习/PHP/仓库/常量.php",
     "工程学习/PHP/仓库/json/json.php",
@@ -160,8 +171,6 @@
     "工程学习/PHP/仓库/php基础/Globals全局变量/server.php",
     "工程学习/PHP/仓库/php基础/Globals全局变量/phpinfo.php",
     "工程学习/PHP/仓库/php基础/php-loops/foreach.php",
-    "工程学习/PHP/仓库/php基础/OOP/const.php",
-    "工程学习/PHP/仓库/php基础/Globals全局变量/ENV.php",
     "工程学习/PHP/双冒号.md",
     "工程学习/PHP/文件操作.md",
     "工程学习/PHP/require和include的用法和区别.md",
@@ -178,19 +187,10 @@
     "软件使用/PhotoShop/课程素材1.jpg",
     "软件使用/PhotoShop/微信图片_20240903200430.jpg",
     "工程学习/Pyhton/Python连接Mysql.md",
-    "CTF/WEB/CTFSHOW/ctfshow- 文件包含.md",
-    "CTF/WEB/CTFSHOW/ctfshow-sql注入.md",
-    "CTF/WEB/CTFSHOW/CTFSHOW-WEB-萌新赛.md",
-    "CTF/WEB/CTFSHOW/PHP的特性.md",
-    "CTF/WEB/原理/文件包含.md",
     "Pasted image 20240905163640.png",
     "Pasted image 20240905163110.png",
-    "CTF/WEB/CTFSHOW/CTFshow web入门——爆破.md",
     "Pasted image 20240905145927.png",
-    "CTF/WEB/CTFSHOW/SSRF.md",
     "未命名.canvas",
-    "CTF/WEB/原理/sqlmap.md",
-    "CTF/WEB/题解/NewStar2023复现/week1/Easylogin.md",
     "Pasted image 20240821110110.png",
     "Pasted image 20240821111018.png",
     "Pasted image 20240821110801.png",
