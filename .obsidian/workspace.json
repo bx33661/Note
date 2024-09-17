@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6972bc19ca022047",
+        "id": "52ad7e1d2972430d",
         "type": "tabs",
         "children": [
           {
-            "id": "11799eaa25ef3435",
+            "id": "8eba2e295a083033",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工程学习/PHP/$_SERVER.md",
+                "file": "资料.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程学习/PHP/$_SERVER.md",
+                "file": "资料.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程学习/PHP/$_SERVER.md",
+                "file": "资料.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程学习/PHP/$_SERVER.md"
+                "file": "资料.md"
               }
             }
           }
@@ -146,8 +146,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "11799eaa25ef3435",
+  "active": "8eba2e295a083033",
   "lastOpenFiles": [
+    "工程学习/Typescript/DW课程学习/Task one.md",
+    "工程学习/Typescript/DW课程学习/Task two.md",
+    "资料.md",
+    "工程学习/PHP/$_SERVER.md",
     "工程学习/PHP/仓库/常量.php",
     "工程学习/PHP/仓库/json/json.php",
     "工程学习/PHP/仓库/json/data.json",
@@ -158,9 +162,7 @@
     "工程学习/PHP/仓库/php基础/php-loops/foreach.php",
     "工程学习/PHP/仓库/php基础/OOP/const.php",
     "工程学习/PHP/仓库/php基础/Globals全局变量/ENV.php",
-    "工程学习/PHP/仓库/php基础/php-loops",
     "工程学习/PHP/双冒号.md",
-    "工程学习/PHP/$_SERVER.md",
     "工程学习/PHP/文件操作.md",
     "工程学习/PHP/require和include的用法和区别.md",
     "工程学习/PHP/文件结构.md",
@@ -189,8 +191,6 @@
     "未命名.canvas",
     "CTF/WEB/原理/sqlmap.md",
     "CTF/WEB/题解/NewStar2023复现/week1/Easylogin.md",
-    "CTF/WEB/题解/NewStar2023复现/week1/Begin of PHP.md",
-    "CTF/WEB/题解/NewStar2023复现/week1/Begin of HTTP.md",
     "Pasted image 20240821110110.png",
     "Pasted image 20240821111018.png",
     "Pasted image 20240821110801.png",
