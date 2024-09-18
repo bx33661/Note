@@ -11,12 +11,8 @@
             "id": "8eba2e295a083033",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工程学习/Linux/Linux中权限.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程学习/Linux/Linux中权限.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程学习/Linux/Linux中权限.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "工程学习/Linux/Linux中权限.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,6 +140,13 @@
   },
   "active": "8eba2e295a083033",
   "lastOpenFiles": [
+    "CTF/WEB/题解/[NSSRound.md",
+    "未命名 1.canvas",
+    "工程学习/Linux/命令.md",
+    "图片素材/下载.png",
+    "图片素材/Purple Professional Annual Report Book Cover A4.png",
+    "工程学习/Linux/Shell/Shell Script.md",
+    "工程学习/Linux/Linux中权限.md",
     "工程学习/Linux/proc 目录.md",
     "工程学习/Linux/Ubuntu软件安装.md",
     "工程学习/Linux/etc.md",
@@ -156,7 +155,6 @@
     "工程学习/Typescript/DW课程学习/Task one.md",
     "工程学习/Typescript/DW课程学习/Task two.md",
     "工程学习/Linux/Linux下文件种类.md",
-    "工程学习/Linux/Linux中权限.md",
     "工程学习/Linux/Linux创建用户.md",
     "资料.md",
     "工程学习/Pyhton/conda.md",
@@ -181,19 +179,14 @@
     "CTF/WEB/题解/ez_sql.md",
     "CTF/WEB/题解/BUUCTF- [ZJCTF 2019]NiZhuanSiWei.md",
     "工程学习/系统/Bash命令.md",
-    "CTF/WEB/题解/BUU SQL COURSE 1.md",
-    "CTF/WEB/题解/[极客大挑战 2019]LoveSQL.md",
     "软件使用/PhotoShop/头像.jpg",
     "软件使用/PhotoShop/课程素材1.jpg",
     "软件使用/PhotoShop/微信图片_20240903200430.jpg",
-    "工程学习/Pyhton/Python连接Mysql.md",
     "Pasted image 20240905163640.png",
     "Pasted image 20240905163110.png",
     "Pasted image 20240905145927.png",
     "未命名.canvas",
     "Pasted image 20240821110110.png",
-    "Pasted image 20240821111018.png",
-    "Pasted image 20240821110801.png",
-    "Pasted image 20240821110714.png"
+    "Pasted image 20240821111018.png"
   ]
 }
