@@ -11,12 +11,8 @@
             "id": "8eba2e295a083033",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CTF/WEB/复现/BaseCTF2024/week2/RCEisamazingwithspace.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/WEB/复现/BaseCTF2024/week2/RCEisamazingwithspace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/WEB/复现/BaseCTF2024/week2/RCEisamazingwithspace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CTF/WEB/复现/BaseCTF2024/week2/RCEisamazingwithspace.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,6 +140,7 @@
   },
   "active": "8eba2e295a083033",
   "lastOpenFiles": [
+    "CTF/WEB/复现/BaseCTF2024/week2/RCEisamazingwithspace.md",
     "CTF/WEB/复现/BaseCTF2024/PHP中的DirectoryIterator.md",
     "CTF/WEB/复现/BaseCTF2024/PHP原生类的利用.md",
     "CTF/WEB/复现/BaseCTF2024/week2/ez_ser.md",
@@ -163,7 +156,6 @@
     "CTF/WEB/复现/BaseCTF2024/week1/HTTP是什么.md",
     "CTF/WEB/复现/BaseCTF2024/week1/喵喵喵´•ﻌ•`.md",
     "CTF/WEB/复现/BaseCTF2024/week1/md5绕过欸.md",
-    "CTF/WEB/复现/BaseCTF2024/week2/RCEisamazingwithspace.md",
     "CTF/WEB/复现/BaseCTF2024/week2/所以你说你懂 MD5.md",
     "未命名 1.canvas",
     "未命名.canvas",
