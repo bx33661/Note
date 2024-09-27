@@ -11,8 +11,12 @@
             "id": "8eba2e295a083033",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CTF/WEB/CTFSHOW/ctfshow- PHP特性.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,13 +85,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
+                "file": "CTF/WEB/CTFSHOW/ctfshow- PHP特性.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CTF/WEB/CTFSHOW/ctfshow- PHP特性.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +124,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CTF/WEB/CTFSHOW/ctfshow- PHP特性.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -140,6 +148,22 @@
   },
   "active": "8eba2e295a083033",
   "lastOpenFiles": [
+    "CTF/WEB/复现/BaseCTF2024/Fin/jinjia mark.md",
+    "CTF/WEB/复现/Moe/[MoeCTF 2021]地狱通讯.md",
+    "CTF/WEB/复现/Moe/[MoeCTF 2021]地狱通讯-改.md",
+    "CTF/WEB/复现/Moe",
+    "CTF/WEB/复现/新建文件夹",
+    "CTF/WEB/复现/ISCTF2023",
+    "工程学习/WEB/JavaScript/箭头函数.md",
+    "工程学习/WEB/JavaScript",
+    "工程学习/WEB/新建文件夹",
+    "CTF/WEB/原理/文件包含.md",
+    "CTF/WEB/原理/文件日志泄露.md",
+    "CTF/WEB/原理/PHP特性与各种函数.md",
+    "工程学习/Typescript/DW课程学习/TypeScript-- 第五章.md",
+    "2024-09-27.md",
+    "未命名.canvas",
+    "CTF/WEB/CTFSHOW/CTFSHOW - 命令执行.md",
     "CTF/WEB/复现/BaseCTF2024/week2/RCEisamazingwithspace.md",
     "CTF/WEB/复现/BaseCTF2024/PHP中的DirectoryIterator.md",
     "CTF/WEB/复现/BaseCTF2024/PHP原生类的利用.md",
@@ -156,28 +180,12 @@
     "CTF/WEB/复现/BaseCTF2024/week1/HTTP是什么.md",
     "CTF/WEB/复现/BaseCTF2024/week1/喵喵喵´•ﻌ•`.md",
     "CTF/WEB/复现/BaseCTF2024/week1/md5绕过欸.md",
-    "CTF/WEB/复现/BaseCTF2024/week2/所以你说你懂 MD5.md",
     "未命名 1.canvas",
-    "未命名.canvas",
-    "CTF/WEB/原理/MD5绕过总结.md",
-    "CTF/WEB/原理/JWT.md",
-    "CTF/WEB/原理/HTTP表头.md",
-    "CTF/WEB/原理/Bypass (绕过).md",
-    "CTF/WEB/原理/Base64编码与解码原理分析.md",
-    "CTF/WEB/原理/文件包含.md",
-    "CTF/WEB/原理/文件日志泄露.md",
-    "CTF/WEB/原理/反弹shell学习.md",
-    "CTF/WEB/原理/sqlmap.md",
     "CTF/WEB/复现/BaseCTF2024/Fin",
     "CTF/WEB/复现/BaseCTF2024/新建文件夹",
     "CTF/WEB/复现/NewStar2023/NewStar2023复现/week3",
     "CTF/WEB/复现/NewStar2023/NewStar2023复现/week2",
     "CTF/WEB/复现/NewStar2023/NewStar2023复现/week1",
-    "CTF/WEB/复现/NewStar2023/week3",
-    "CTF/WEB/复现/NewStar2023/week2",
-    "CTF/WEB/复现/NewStar2023/week1",
-    "CTF/WEB/复现/NewStar2023/NewStar2023复现",
-    "CTF/WEB/复现/NewStar2023",
     "图片素材/下载.png",
     "图片素材/Purple Professional Annual Report Book Cover A4.png",
     "软件使用/PhotoShop/头像.jpg",
