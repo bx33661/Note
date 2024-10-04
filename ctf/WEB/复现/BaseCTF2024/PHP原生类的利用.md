@@ -92,7 +92,7 @@ echo new $J1ng($Hong);
 ?K=FilesystemIterator&W=/secret/
 ```
 
-![image-20240921142909738](https://gitee.com/bx33661/image/raw/master/path/image-20240921142909738.png)
+<img src="https://gitee.com/bx33661/image/raw/master/path/image-20240921142909738.png" alt="image-20240921142909738" style="zoom:33%;" />
 
 
 
