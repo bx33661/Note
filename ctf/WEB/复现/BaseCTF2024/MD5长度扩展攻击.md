@@ -4,6 +4,8 @@
 
 > 使用工具：https://github.com/luoingly/attack-scripts/blob/main/logic/md5-extension-attack.py
 
+一道最近做的题，
+
 ```php
 // 你以为这就结束了
 if (!isset($_SESSION['random'])) {
@@ -61,6 +63,8 @@ if (md5($random . $name) !== $md5) {
 ```
 
 这样`md5($random . $name)`加密之后的值也就等于`735f29b2def96d4978625c18ddc4fcae`
+
+> 这样就实现了可以添加我们想要的内容去上面然后，满足题目的md5检测
 
 
 

