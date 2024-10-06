@@ -13,8 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/WEB/复现/BaseCTF2024/正则回溯绕过.md",
+                "file": "工程学习/概念/完全自举.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -80,29 +81,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "18cb306c7d0f7adf",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "CTF/WEB/复现/BaseCTF2024/正则回溯绕过.md",
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": true,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
             "id": "7ffedd3d061f76e2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/WEB/复现/BaseCTF2024/正则回溯绕过.md",
+                "file": "工程学习/概念/完全自举.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,12 +109,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/WEB/复现/BaseCTF2024/正则回溯绕过.md"
+                "file": "工程学习/概念/完全自举.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -149,6 +133,18 @@
   },
   "active": "8eba2e295a083033",
   "lastOpenFiles": [
+    "CTF/WEB/原理/ctfshow-ssti.md",
+    "工程学习/概念/完全自举.md",
+    "工程学习/概念",
+    "CTF/WEB/SQL.md",
+    "CTF/WEB/原理/sql学习.md",
+    "CTF/WEB/原理/SQL注入.md",
+    "CTF/WEB/原理/sqlmap.md",
+    "CTF/WEB/原理/SSTI.md",
+    "CTF/WEB/原理/Python原型链.md",
+    "CTF/WEB/原理/PHP中超级全局变量.md",
+    "CTF/WEB/原理/JWT基础知识.pdf",
+    "CTF/WEB/复现/BaseCTF2024/正则回溯绕过.md",
     "CTF/WEB/复现/BaseCTF2024/week3/复读机.md",
     "CTF/WEB/复现/BaseCTF2024/week2/RCEisamazingwithspace.md",
     "CTF/WEB/复现/BaseCTF2024/week2/ez_ser.md",
@@ -156,25 +152,15 @@
     "CTF/WEB/复现/BaseCTF2024/week2/数学大师.md",
     "CTF/WEB/复现/BaseCTF2024/week2/你听不到我的声音.md",
     "CTF/WEB/复现/BaseCTF2024/week2/吃豆人.md",
-    "CTF/WEB/复现/BaseCTF2024/正则回溯绕过.md",
     "CTF/WEB/复现/BaseCTF2024/week3/ez_php_jail.md",
     "CTF/WEB/复现/BaseCTF2024/week3/所以你说你懂 MD5.md",
-    "CTF/WEB/SQL.md",
     "CTF/WEB/培训/WP.md",
-    "CTF/WEB/原理/SQL注入.md",
-    "CTF/WEB/原理/sql学习.md",
     "CTF/WEB/原理/MD5绕过总结.md",
     "CTF/WEB/复现/MoeCTF2024/表白墙.md",
     "CTF/WEB/复现/MoeCTF2024/弗拉格之地的挑战.md",
     "CTF/WEB/复现/BaseCTF2024/Content-Type.md",
     "CTF/WEB/复现/BaseCTF2024/PHP中的DirectoryIterator.md",
     "CTF/WEB/复现/BaseCTF2024/PHP原生类的利用.md",
-    "CTF/WEB/复现/BaseCTF2024/MD5长度扩展攻击.md",
-    "CTF/WEB/原理/flask项目结构.md",
-    "CTF/WEB/原理/flask/flask项目结构.md",
-    "CTF/WEB/原理/正则回溯绕过.md",
-    "README.md",
-    "资料.md",
     "CTF/WEB/复现/Moe",
     "CTF/WEB/复现/新建文件夹",
     "CTF/WEB/复现/ISCTF2023",
@@ -185,8 +171,6 @@
     "CTF/WEB/复现/BaseCTF2024/Fin",
     "CTF/WEB/复现/BaseCTF2024/新建文件夹",
     "CTF/WEB/复现/NewStar2023/NewStar2023复现/week3",
-    "CTF/WEB/复现/NewStar2023/NewStar2023复现/week2",
-    "CTF/WEB/复现/NewStar2023/NewStar2023复现/week1",
     "图片素材/下载.png",
     "图片素材/Purple Professional Annual Report Book Cover A4.png",
     "软件使用/PhotoShop/头像.jpg",
