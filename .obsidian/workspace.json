@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "52ad7e1d2972430d",
+        "id": "dbbe4dfca1e30e1a",
         "type": "tabs",
         "children": [
           {
-            "id": "8eba2e295a083033",
+            "id": "4d9a182ba2520a18",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工程学习/概念/完全自举.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程学习/概念/完全自举.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,9 +102,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "工程学习/概念/完全自举.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -131,12 +123,34 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8eba2e295a083033",
+  "active": "4d9a182ba2520a18",
   "lastOpenFiles": [
-    "CTF/WEB/原理/ctfshow-ssti.md",
-    "工程学习/概念/完全自举.md",
-    "工程学习/概念",
+    "CTF/WEB/脚本/nagate.php",
+    "CTF/WEB/脚本/取反.php",
+    "Pasted image 20240821110636.png.md",
+    "CTF/WEB/原理/Bypass (绕过).md",
+    "CTF/WEB/脚本/xorRce/xor生成.php",
+    "CTF/WEB/脚本/xorRce/新建 文本文档.txt",
+    "CTF/WEB/脚本/xorRce/xor.txt",
+    "CTF/WEB/脚本/xorRce/xor.py",
+    "CTF/WEB/脚本/xorRce",
+    "CTF/WEB/脚本/新建文件夹",
+    "CTF/WEB/原理/HTTP表头.md",
+    "CTF/WEB/原理/文件日志泄露.md",
     "CTF/WEB/SQL.md",
+    "CTF/WEB/NSSCTF -[SWPUCTF 2021 新生赛]finalrce.md",
+    "CTF/WEB/原理/ctfshow-ssti.md",
+    "CTF/WEB/CTFSHOW/ctfshow- 文件包含.md",
+    "CTF/WEB/原理/文件包含.md",
+    "CTF/WEB/js原型链.md",
+    "().md",
+    "CTF/WEB/题解/R!!C!!E!!.md",
+    "资料.md",
+    "未命名.canvas",
+    "2024-10-06.md",
+    "工程学习/概念/完全自举.md",
+    "未命名",
+    "工程学习/概念",
     "CTF/WEB/原理/sql学习.md",
     "CTF/WEB/原理/SQL注入.md",
     "CTF/WEB/原理/sqlmap.md",
@@ -148,29 +162,7 @@
     "CTF/WEB/复现/BaseCTF2024/week3/复读机.md",
     "CTF/WEB/复现/BaseCTF2024/week2/RCEisamazingwithspace.md",
     "CTF/WEB/复现/BaseCTF2024/week2/ez_ser.md",
-    "CTF/WEB/复现/BaseCTF2024/week2/所以你说你懂 MD5.md",
-    "CTF/WEB/复现/BaseCTF2024/week2/数学大师.md",
-    "CTF/WEB/复现/BaseCTF2024/week2/你听不到我的声音.md",
-    "CTF/WEB/复现/BaseCTF2024/week2/吃豆人.md",
-    "CTF/WEB/复现/BaseCTF2024/week3/ez_php_jail.md",
-    "CTF/WEB/复现/BaseCTF2024/week3/所以你说你懂 MD5.md",
-    "CTF/WEB/培训/WP.md",
-    "CTF/WEB/原理/MD5绕过总结.md",
-    "CTF/WEB/复现/MoeCTF2024/表白墙.md",
-    "CTF/WEB/复现/MoeCTF2024/弗拉格之地的挑战.md",
-    "CTF/WEB/复现/BaseCTF2024/Content-Type.md",
-    "CTF/WEB/复现/BaseCTF2024/PHP中的DirectoryIterator.md",
-    "CTF/WEB/复现/BaseCTF2024/PHP原生类的利用.md",
-    "CTF/WEB/复现/Moe",
-    "CTF/WEB/复现/新建文件夹",
-    "CTF/WEB/复现/ISCTF2023",
-    "工程学习/WEB/JavaScript",
-    "工程学习/WEB/新建文件夹",
-    "未命名.canvas",
     "未命名 1.canvas",
-    "CTF/WEB/复现/BaseCTF2024/Fin",
-    "CTF/WEB/复现/BaseCTF2024/新建文件夹",
-    "CTF/WEB/复现/NewStar2023/NewStar2023复现/week3",
     "图片素材/下载.png",
     "图片素材/Purple Professional Annual Report Book Cover A4.png",
     "软件使用/PhotoShop/头像.jpg",

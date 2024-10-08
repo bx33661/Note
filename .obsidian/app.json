@@ -2,5 +2,12 @@
   "showLineNumber": false,
   "showIndentGuide": true,
   "spellcheck": false,
-  "foldHeading": false
+  "foldHeading": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
