@@ -474,3 +474,5 @@ secrets.php?id=-1' union select 1,2,group_concat(flAg)from moectf.flag--+
 
 -1"/**/union/**/select/**/2,group_concat(value)from ctf.Fl4g#
 ```
+
+
