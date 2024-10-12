@@ -1,0 +1,1 @@
+之前使用 requests 模块的时候，是直接 requests.get() 或者 requests.post() 发送GET请求或POST请求；当然也是可以带上 cookies 和 headers 的，但这都是一次性请求，你这次带着cookies信息，后面的请求还得带。这时候 requests.session() 就派上用场了，它可以自动处理cookies，做状态保持
