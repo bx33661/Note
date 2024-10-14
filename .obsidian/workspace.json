@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI学习/LLM大模型学习/Task3.md",
+                "file": "工程学习/Pyhton/基本/enumerta()函数.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI学习/LLM大模型学习/Task3.md",
+                "file": "工程学习/Pyhton/基本/enumerta()函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI学习/LLM大模型学习/Task3.md"
+                "file": "工程学习/Pyhton/基本/enumerta()函数.md"
               }
             }
           }
@@ -118,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -131,8 +130,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4d9a182ba2520a18",
+  "active": "80753a55136797d8",
   "lastOpenFiles": [
+    "工程学习/Pyhton/基本/zip语法.md",
+    "工程学习/Pyhton/基本/enumerta()函数.md",
+    "工程学习/Pyhton/基本/macth-case语句.md",
+    "CTF/WEB/原理/文件包含.md",
+    "资料.md",
+    "AI学习/LLM大模型学习/Task3.md",
     "AI学习/LLM大模型学习/Task2.md",
     "AI学习/LLM大模型学习/Task 6.md",
     "AI学习/LLM大模型学习/Task 5.md",
@@ -153,11 +158,9 @@
     "CTF/WEB/NSSCTF -[SWPUCTF 2021 新生赛]finalrce.md",
     "CTF/WEB/原理/ctfshow-ssti.md",
     "CTF/WEB/CTFSHOW/ctfshow- 文件包含.md",
-    "CTF/WEB/原理/文件包含.md",
     "CTF/WEB/js原型链.md",
     "().md",
     "CTF/WEB/题解/R!!C!!E!!.md",
-    "资料.md",
     "未命名.canvas",
     "2024-10-06.md",
     "工程学习/概念/完全自举.md",
@@ -166,10 +169,6 @@
     "CTF/WEB/原理/sql学习.md",
     "CTF/WEB/原理/SQL注入.md",
     "CTF/WEB/原理/sqlmap.md",
-    "CTF/WEB/原理/SSTI.md",
-    "CTF/WEB/原理/Python原型链.md",
-    "CTF/WEB/原理/PHP中超级全局变量.md",
-    "CTF/WEB/复现/BaseCTF2024/正则回溯绕过.md",
     "未命名 1.canvas",
     "图片素材/下载.png",
     "图片素材/Purple Professional Annual Report Book Cover A4.png",
