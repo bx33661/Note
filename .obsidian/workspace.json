@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工程学习/概念/CVE.md",
+                "file": "工程学习/概念/POC.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程学习/概念/CVE.md",
+                "file": "工程学习/概念/POC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程学习/概念/CVE.md"
+                "file": "工程学习/概念/POC.md"
               }
             }
           }
@@ -159,6 +159,10 @@
   },
   "active": "57c92f3b54eaa627",
   "lastOpenFiles": [
+    "工程学习/概念/伪代码.md",
+    "工程学习/概念/完全自举.md",
+    "工程学习/概念/N-S图.md",
+    "工程学习/概念/CVE.md",
     "CTF/CVE/CVE-2021-36749/post.json",
     "CTF/WEB/复现/BuuCTF/[RoarCTF 2019]Easy Calc.md",
     "CTF/WEB/复现/BuuCTF/[watevrCTF-2019]Supercalc.md",
@@ -171,13 +175,10 @@
     "CTF/WEB/复现/BuuCTF",
     "CTF/WEB/复现/新建文件夹",
     "工程学习/概念/POC.md",
-    "工程学习/概念/CVE.md",
-    "工程学习/概念/N-S图.md",
     "工程学习/Pyhton/高级程序设计课/demo.py",
     "工程学习/Pyhton/高级程序设计课/itertools学习.md",
     "工程学习/Pyhton/高级程序设计课/work_one.ipynb",
     "工程学习/Pyhton/高级程序设计课",
-    "工程学习/概念/伪代码.md",
     "工程学习/Pyhton/基本/macth-case语句.md",
     "工程学习/Pyhton/基本/基本类型/enumerate.ipynb",
     "工程学习/Pyhton/基本/enumerta()函数.md",
@@ -194,7 +195,6 @@
     "CTF/WEB/脚本/nagate.php",
     "CTF/WEB/脚本/取反.php",
     "Pasted image 20240821110636.png.md",
-    "CTF/WEB/脚本/xorRce/xor生成.php",
     "未命名.canvas",
     "未命名 1.canvas",
     "图片素材/下载.png",
