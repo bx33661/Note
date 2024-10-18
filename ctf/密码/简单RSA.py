@@ -1,10 +1,12 @@
 import random
 
+#计算最大公约数
 def gcd(a, b):
     while b != 0:
         a, b = b, a % b
     return a
 
+#计算模逆元
 def mod_inverse(a, m):
     m0, x0, x1 = m, 0, 1
     if m == 1:
@@ -17,6 +19,7 @@ def mod_inverse(a, m):
         x1 += m0
     return x1
 
+#判断是否为质数
 def is_prime(n, k=5):
     if n <= 1:
         return False
@@ -67,10 +70,11 @@ def generate_keypair(key_size):
 
     return ((e, n), (d, n))
 
+# 编码
 def encrypt(public_key, plaintext):
     e, n = public_key
     return [pow(ord(char), e, n) for char in plaintext]
-
+# 解码
 def decrypt(private_key, ciphertext):
     d, n = private_key
     return ''.join(chr(pow(char, d, n)) for char in ciphertext)
