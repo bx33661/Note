@@ -1,5 +1,7 @@
 {
   "baseFontSize": 18,
   "baseFontSizeAction": true,
-  "cssTheme": "Blue Topaz"
+  "cssTheme": "Minimal",
+  "monospaceFontFamily": "Consolas",
+  "theme": "obsidian"
 }
