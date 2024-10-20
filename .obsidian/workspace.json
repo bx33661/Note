@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/WEB/SQL.md",
+                "file": "CTF/WEB/CTFSHOW/PHP的特性.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL"
+              "title": "PHP的特性"
             }
           }
         ]
@@ -146,10 +146,20 @@
   },
   "active": "57c92f3b54eaa627",
   "lastOpenFiles": [
+    "CTF/WEB/CTFSHOW/WEB信息搜索.md",
+    "CTF/WEB/CTFSHOW/SSRF.md",
+    "CTF/WEB/CTFSHOW/CTFSHOW-WEB-萌新赛.md",
+    "CTF/WEB/CTFSHOW/ctfshow-sql注入.md",
+    "CTF/WEB/CTFSHOW/CTFSHOW-黑盒测试.md",
+    "CTF/WEB/CTFSHOW/ctfshow- 文件包含.md",
+    "CTF/WEB/CTFSHOW/CTFshow web入门——爆破.md",
+    "CTF/WEB/CTFSHOW/CTFSHOW -JWT.md",
+    "CTF/WEB/CTFSHOW/CTFSHOW - 命令执行.md",
+    "CTF/密码/未命名.md",
+    "CTF/WEB/SQL.md",
     "CTF/WEB/原理/SQL注入.md",
     "CTF/WEB/原理/PHP知识/md5/md5.md",
     "CTF/WEB/原理/文件包含.md",
-    "CTF/WEB/CTFSHOW/ctfshow- 文件包含.md",
     "CTF/WEB/原理/文件日志泄露.md",
     "图片素材/default10.jpg",
     "图片素材/default6.jpg",
@@ -175,16 +185,6 @@
     "CTF/WEB/原理/PHP知识/md5/弱比较特例1.php",
     "资料.md",
     "CTF/WEB/资源.md",
-    "工程学习/其他资源.md",
-    "工程学习/概念/SHA.md",
-    "工程学习/概念/POC.md",
-    "工程学习/概念/完全自举.md",
-    "工程学习/概念/CVE.md",
-    "CTF/WEB/复现/BuuCTF/[RoarCTF 2019]Easy Calc.md",
-    "CTF/WEB/复现/BuuCTF/[watevrCTF-2019]Supercalc.md",
-    "CTF/WEB/复现/BuuCTF/[BSidesCF 2020]Hurdles.md",
-    "CTF/WEB/复现/BuuCTF/[NCTF2019]Fake XML cookbook.md",
-    "CTF/WEB/复现/BuuCTF/[HCTF 2018]admin.md",
     "未命名.canvas",
     "未命名 1.canvas",
     "图片素材/Purple Professional Annual Report Book Cover A4.png",
