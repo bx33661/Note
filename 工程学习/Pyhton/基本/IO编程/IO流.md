@@ -82,3 +82,57 @@ with open("工程学习\Pyhton\基本\IO编程\demo.txt",'w',encoding="utf-8") a
 | `rb+` | 二进制模式读写，文件必须存在，否则抛出 `FileNotFoundError`   |
 | `wb+` | 二进制模式读写，如果文件已存在则清空内容，如果文件不存在则创建新文件 |
 | `ab+` | 二进制模式读写，如果文件已存在则在末尾追加内容，如果文件不存在则创建新文件 |
+
+
+
+### 内存读写
+
+#### `StringIO`---
+
+在内存中读写，操作对象不再是文件
+
+- `write`
+
+```python
+>>> from io import StringIO
+>>> f = StringIO()
+>>> f.write('hello')
+5
+>>> f.write(' ')
+1
+>>> f.write('world') 
+5
+>>> f.getvalue()
+'hello world'
+```
+
+-  `read`
+
+操作一样
+
+```python
+f = StringIO("Hello Dx!!!")
+str = f.read()
+print(str)
+```
+
+
+
+#### `BytesIO`----
+
+顾名思义这个就是在内存中读写二进制类型
+
+```python
+from io import BytesIO
+
+# 创建 BytesIO 对象
+f = BytesIO()
+
+f.write('理想'.encode('utf-8'))
+print(f.getvalue())  
+# b'\xe7\x90\x86\xe6\x83\xb3'
+
+print(f.getvalue().decode('utf-8'))
+# 理想
+```
+
