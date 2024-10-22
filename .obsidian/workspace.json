@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工程学习/Pyhton/基本/IO编程/IO流.md",
+                "file": "CTF/密码/未命名.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IO流"
+              "title": "未命名"
             }
           }
         ],
@@ -162,18 +162,28 @@
   },
   "active": "80753a55136797d8",
   "lastOpenFiles": [
+    "CTF/密码/Python密码/例子.py",
+    "CTF/密码/Python密码/资源.txt",
+    "CTF/密码/Python密码/SHA1例子.py",
+    "CTF/密码/Python密码/MD5例子.py",
+    "CTF/密码/Python密码/字符串.py",
+    "CTF/密码/Python密码",
+    "CTF/密码/RSA算法模拟.md",
+    "CTF/密码/未命名.md",
+    "工程学习/Pyhton/conda.md",
+    "工程学习/Pyhton/Python连接Mysql.md",
+    "工程学习/Pyhton/shebang.md",
+    "工程学习/Pyhton/基本/IO编程/[De1CTF 2019]SSRF Me.md",
+    "CTF/密码/卷积/simple.py",
+    "CTF/密码/卷积",
+    "工程学习/Pyhton/基本/IO编程/mylogo.jpg",
+    "工程学习/Pyhton/基本/IO编程/muma.jpg",
+    "工程学习/Pyhton/基本/IO编程/IO流.md",
     "工程学习/Pyhton/基本/基本库学习/海龟绘图/复杂的树.py",
     "工程学习/Pyhton/基本/基本库学习/海龟绘图",
     "工程学习/Pyhton/基本/IO编程/ByteIO1.py",
-    "工程学习/Pyhton/基本/IO编程/内存读写.py",
-    "工程学习/Pyhton/基本/IO编程/demo2.txt",
-    "工程学习/Pyhton/基本/IO编程/写入.py",
-    "工程学习/Pyhton/基本/基本库学习/IO编程/读取图片.py",
-    "工程学习/Pyhton/基本/基本库学习/IO编程",
     "CTF/WEB/敏感文件.md",
-    "工程学习/Pyhton/基本/IO编程/IO流.md",
     "CTF/WEB/复现/BuuCTF/week2/未命名.md",
-    "工程学习/NodeJS/express 和 pm2.pdf",
     "未命名.canvas",
     "AI学习/LLM大模型学习/阿里云服务器的配置.md",
     "AI学习/LLM大模型学习/LLM大模型学习目录.md",
@@ -191,14 +201,6 @@
     "CTF/WEB/复现/BuuCTF/[护网杯 2018]easy_tornado.md",
     "CTF/WEB/复现/BuuCTF/[强网杯 2019]随便注.md",
     "CTF/WEB/题解/SQL/堆叠注入/[强网杯 2019]随便注.md",
-    "工程学习/概念/进程PID.md",
-    "工程学习/NodeJS/MDN_exprss/myapp/firstapp/node_modules/type-is/README.md",
-    "CTF/WEB/js原型链.md",
-    "CTF/WEB/题解/JWT/[HCTF 2018]admin.md",
-    "CTF/WEB/题解/JWT",
-    "CTF/WEB/题解/新建文件夹",
-    "CTF/WEB/题解/RCE/[RoarCTF 2019]Easy Calc.md",
-    "CTF/WEB/题解/RCE/构造/[GXYCTF2019]禁止套娃.md",
     "图片素材/default10.jpg",
     "图片素材/default6.jpg",
     "图片素材/下载.png",
@@ -207,8 +209,6 @@
     "软件使用/PhotoShop/头像.jpg",
     "软件使用/PhotoShop/课程素材1.jpg",
     "软件使用/PhotoShop/微信图片_20240903200430.jpg",
-    "Pasted image 20240905163640.png",
-    "Pasted image 20240905163110.png",
-    "Pasted image 20240905145927.png"
+    "Pasted image 20240905163640.png"
   ]
 }
