@@ -1,5 +1,6 @@
 ## [网鼎杯 2018]Fakebook
 
+[[CTF/WEB/复现/BuuCTF/[网鼎杯 2020 朱雀组]phpweb|[网鼎杯 2020 朱雀组]phpweb]]
 目录扫描出来了：/user.php.bak，读取文件
 
 ```php
