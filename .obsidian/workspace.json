@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/WEB/敏感文件.md",
+                "file": "工程学习/Pyhton/基本/IO编程/IO流.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "敏感文件"
+              "title": "IO流"
             }
           }
         ],
@@ -160,9 +160,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "abb0b41757235ceb",
+  "active": "80753a55136797d8",
   "lastOpenFiles": [
+    "工程学习/Pyhton/基本/IO编程/demo2.txt",
+    "工程学习/Pyhton/基本/IO编程/写入.py",
+    "工程学习/Pyhton/基本/基本库学习/IO编程/读取图片.py",
+    "工程学习/Pyhton/基本/基本库学习/IO编程",
     "CTF/WEB/敏感文件.md",
+    "工程学习/Pyhton/基本/IO编程/IO流.md",
     "CTF/WEB/复现/BuuCTF/week2/未命名.md",
     "工程学习/NodeJS/express 和 pm2.pdf",
     "未命名.canvas",
@@ -190,15 +195,10 @@
     "CTF/WEB/题解/新建文件夹",
     "CTF/WEB/题解/RCE/[RoarCTF 2019]Easy Calc.md",
     "CTF/WEB/题解/RCE/构造/[GXYCTF2019]禁止套娃.md",
-    "CTF/WEB/题解/RCE/[GXYCTF2019]禁止套娃.md",
-    "CTF/WEB/题解/SQL/堆叠注入/[GYCTF2020]Blacklist.md",
     "CTF/WEB/题解/SQL/堆叠注入",
     "CTF/WEB/题解/SQL/新建文件夹",
     "CTF/WEB/题解/HTTP",
     "CTF/WEB/题解/RCE/构造",
-    "CTF/WEB/题解/RCE/新建文件夹",
-    "CTF/WEB/题解/模板注入/smarty",
-    "CTF/WEB/题解/模板注入/新建文件夹",
     "图片素材/default10.jpg",
     "图片素材/default6.jpg",
     "图片素材/下载.png",
