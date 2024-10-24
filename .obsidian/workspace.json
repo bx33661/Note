@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/密码/未命名.md",
+                "file": "CTF/WEB/Ngnix和Apache区别.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "Ngnix和Apache区别"
             }
           }
         ],
@@ -160,8 +160,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "80753a55136797d8",
+  "active": "abb0b41757235ceb",
   "lastOpenFiles": [
+    "CTF/WEB/敏感文件.md",
+    "CTF/WEB/Ngnix和Apache区别.md",
+    "CTF/WEB/原理/SSTI.md",
+    "CTF/密码/未命名.md",
     "CTF/密码/Python密码/例子.py",
     "CTF/密码/Python密码/资源.txt",
     "CTF/密码/Python密码/SHA1例子.py",
@@ -169,7 +173,6 @@
     "CTF/密码/Python密码/字符串.py",
     "CTF/密码/Python密码",
     "CTF/密码/RSA算法模拟.md",
-    "CTF/密码/未命名.md",
     "工程学习/Pyhton/conda.md",
     "工程学习/Pyhton/Python连接Mysql.md",
     "工程学习/Pyhton/shebang.md",
@@ -181,8 +184,6 @@
     "工程学习/Pyhton/基本/IO编程/IO流.md",
     "工程学习/Pyhton/基本/基本库学习/海龟绘图/复杂的树.py",
     "工程学习/Pyhton/基本/基本库学习/海龟绘图",
-    "工程学习/Pyhton/基本/IO编程/ByteIO1.py",
-    "CTF/WEB/敏感文件.md",
     "CTF/WEB/复现/BuuCTF/week2/未命名.md",
     "未命名.canvas",
     "AI学习/LLM大模型学习/阿里云服务器的配置.md",
@@ -200,7 +201,6 @@
     "CTF/WEB/复现/BuuCTF/[watevrCTF-2019]Supercalc.md",
     "CTF/WEB/复现/BuuCTF/[护网杯 2018]easy_tornado.md",
     "CTF/WEB/复现/BuuCTF/[强网杯 2019]随便注.md",
-    "CTF/WEB/题解/SQL/堆叠注入/[强网杯 2019]随便注.md",
     "图片素材/default10.jpg",
     "图片素材/default6.jpg",
     "图片素材/下载.png",
