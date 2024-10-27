@@ -1,11 +1,11 @@
 import jwt
 
 # 泄露的密钥
-secret_key = "tanji_is_A_boy_Yooooooooooooooooooooo!"
+secret_key = "1Kun"
 
 # 载荷数据
 payload = {
-    "name": "admin"
+    "username": "admin"
 }
 
 # 生成JWT

