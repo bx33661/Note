@@ -19,7 +19,7 @@ def decode_session(session_data):
         print("Error decoding or parsing session data:", e)
 
 # 示例session数据
-session_data = "eyJoaXN0b3J5IjpbeyJjb2RlIjoiMSArIDEifV19.X98yeg.YggVMibcD6Bh8ZqORv4BMRBfNS0"
+session_data = ".eJwtjDEOgzAQBL9CtqZASYxt3pAfIITM3ZlEsbDEmQrx97hINZpi5sQcU9C3KIbxRFMqoAeRqKLFK6-frfl7PNIN0zW1IN3jXPJXNgywvvdkDHHo2ZFxYl3o_MLRP-6-sxyY-cmLq7s9J6nFeogWXD_3iifi.ZyBEtg.hoxzWFvDj1RkpsnsgjAGTGrLWxM"
 
 # 解码session数据
 decode_session(session_data)

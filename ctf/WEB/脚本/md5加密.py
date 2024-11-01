@@ -6,7 +6,7 @@ def md5_encode(data):
     return md5_digest
 
 # md5(cookie_secret+md5(filename))
-data = "8e0ec61c-e16c-4ed2-a4ca-f51cd96f3efe"
+data = "123456boss"
 md5_encoded = md5_encode(data)
 
 print(f"原始数据: {data}")
