@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工程学习/概念/APT（高级持续性威胁）.md",
+                "file": "工程学习/概念/攻防/跑C端.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "APT（高级持续性威胁）"
+              "title": "跑C端"
             }
           }
         ]
@@ -146,9 +146,15 @@
   },
   "active": "abb0b41757235ceb",
   "lastOpenFiles": [
-    "工程学习/概念/内网横向移动.md",
-    "工程学习/概念/APT（高级持续性威胁）.md",
-    "工程学习/概念/0day漏洞.md",
+    "工程学习/概念/攻防/外网信息收集.md",
+    "工程学习/概念/攻防/跑C端.md",
+    "工程学习/概念/攻防/0day漏洞.md",
+    "工程学习/概念/攻防/密码喷洒.md",
+    "工程学习/概念/攻防/内网横向移动.md",
+    "工程学习/概念/攻防/Web打点.md",
+    "工程学习/概念/攻防/供应链攻击.md",
+    "工程学习/概念/攻防",
+    "工程学习/概念/攻防/APT（高级持续性威胁）.md",
     "工程学习/概念/arm和amd.md",
     "cursor.py",
     "CTF/WEB/复现/BuuCTF/week2/[网鼎杯 2018]Fakebook.md",
@@ -176,12 +182,6 @@
     "CTF/密码/未命名.md",
     "CTF/密码/Python密码/例子.py",
     "CTF/密码/Python密码/资源.txt",
-    "CTF/密码/Python密码/SHA1例子.py",
-    "CTF/密码/RSA算法模拟.md",
-    "工程学习/Pyhton/conda.md",
-    "工程学习/Pyhton/Python连接Mysql.md",
-    "工程学习/Pyhton/shebang.md",
-    "工程学习/Pyhton/基本/IO编程/[De1CTF 2019]SSRF Me.md",
     "工程学习/Pyhton/基本/IO编程/mylogo.jpg",
     "工程学习/Pyhton/基本/IO编程/muma.jpg",
     "未命名.canvas",
