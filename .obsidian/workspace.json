@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工程学习/概念/攻防/跑C端.md",
+                "file": "工程学习/概念/攻防/Nday漏洞.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "跑C端"
+              "title": "Nday漏洞"
             }
           }
         ]
@@ -146,8 +146,13 @@
   },
   "active": "abb0b41757235ceb",
   "lastOpenFiles": [
-    "工程学习/概念/攻防/外网信息收集.md",
+    "CTF/工具/Behinder.md",
+    "工程学习/概念/攻防/Nday漏洞.md",
+    "CTF/工具/One-fox集成工具.md",
+    "CTF/工具/哥斯拉.md",
     "工程学习/概念/攻防/跑C端.md",
+    "CTF/工具",
+    "工程学习/概念/攻防/外网信息收集.md",
     "工程学习/概念/攻防/0day漏洞.md",
     "工程学习/概念/攻防/密码喷洒.md",
     "工程学习/概念/攻防/内网横向移动.md",
@@ -176,12 +181,7 @@
     "CTF/WEB/Linux.md",
     "CTF/WEB/原理/Python原型链.md",
     "CTF/WEB/原理/SSTI.md",
-    "CTF/WEB/原理/sqlmap.md",
-    "CTF/WEB/Ngnix和Apache区别.md",
-    "CTF/WEB/敏感文件.md",
-    "CTF/密码/未命名.md",
     "CTF/密码/Python密码/例子.py",
-    "CTF/密码/Python密码/资源.txt",
     "工程学习/Pyhton/基本/IO编程/mylogo.jpg",
     "工程学习/Pyhton/基本/IO编程/muma.jpg",
     "未命名.canvas",

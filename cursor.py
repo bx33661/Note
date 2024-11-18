@@ -1,8 +1,5 @@
-def simple_recursive_function(n):
-    if n <= 0:
-        return
-    else:
-        print(n)
-        simple_recursive_function(n - 1)
-
-simple_recursive_function(5)
+import ast
+root = ast.parse("import os")
+root2 = ast.parse("from bs4 import BeautifulSoup")
+print(ast.dump(root))
+print(ast.dump(root2))
