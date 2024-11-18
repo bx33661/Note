@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工程学习/概念/攻防/Nday漏洞.md",
+                "file": "工程学习/概念/代理IP.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nday漏洞"
+              "title": "代理IP"
             }
           }
         ]
@@ -146,8 +146,13 @@
   },
   "active": "abb0b41757235ceb",
   "lastOpenFiles": [
-    "CTF/工具/Behinder.md",
+    "资料.md",
+    "工程学习/概念/代理IP.md",
+    "工程学习/概念/攻防/CDN.md",
+    "工程学习/概念/攻防/真实IP.md",
+    "CTF/工具/Afrog.md",
     "工程学习/概念/攻防/Nday漏洞.md",
+    "CTF/工具/Behinder.md",
     "CTF/工具/One-fox集成工具.md",
     "CTF/工具/哥斯拉.md",
     "工程学习/概念/攻防/跑C端.md",
@@ -176,11 +181,6 @@
     "CTF/WEB/PHP总结ing.md",
     "CTF/WEB/原理/文件日志泄露.md",
     "CTF/WEB/PHP模板注入.md",
-    "CTF/WEB/mYSQL.md",
-    "CTF/WEB/Nginx利用.md",
-    "CTF/WEB/Linux.md",
-    "CTF/WEB/原理/Python原型链.md",
-    "CTF/WEB/原理/SSTI.md",
     "CTF/密码/Python密码/例子.py",
     "工程学习/Pyhton/基本/IO编程/mylogo.jpg",
     "工程学习/Pyhton/基本/IO编程/muma.jpg",
