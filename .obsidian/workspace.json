@@ -13,16 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工程学习/概念/代理IP.md",
+                "file": "工程学习/概念/64位和32位.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "代理IP"
+              "title": "64位和32位"
+            }
+          },
+          {
+            "id": "f341522659c65e4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工程学习/概念/安全/隧道/ICMP隧道.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ICMP隧道"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,10 +160,26 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "abb0b41757235ceb",
+  "active": "f341522659c65e4e",
   "lastOpenFiles": [
-    "资料.md",
+    "工程学习/概念/安全/隧道/HTTP隧道.md",
+    "工程学习/概念/安全/隧道/ICMP隧道.md",
+    "工程学习/概念/安全/隧道/DNS隧道.md",
+    "工程学习/概念/安全/隧道",
+    "工程学习/概念/安全/DDoS.md",
+    "工程学习/概念/64位和32位.md",
+    "工程学习/概念/安全/CC攻击.md",
+    "工程学习/概念/安全/WAF.md",
+    "工程学习/概念/计算机",
+    "工程学习/概念/安全",
+    "CTF/渗透/windows/未命名.md",
+    "工程学习/概念/计网/ISP.md",
+    "CTF/渗透/windows",
+    "CTF/渗透",
+    "工程学习/概念/计网/VPN.md",
     "工程学习/概念/代理IP.md",
+    "工程学习/概念/计网",
+    "资料.md",
     "工程学习/概念/攻防/CDN.md",
     "工程学习/概念/攻防/真实IP.md",
     "CTF/工具/Afrog.md",
@@ -164,24 +196,8 @@
     "工程学习/概念/攻防/Web打点.md",
     "工程学习/概念/攻防/供应链攻击.md",
     "工程学习/概念/攻防",
-    "工程学习/概念/攻防/APT（高级持续性威胁）.md",
-    "工程学习/概念/arm和amd.md",
     "cursor.py",
-    "CTF/WEB/复现/BuuCTF/week2/[网鼎杯 2018]Fakebook.md",
-    "CTF/WEB/原理/文件包含.md",
-    "CTF/WEB/复现/NewStar2023/week4/NewStar2023 week4 逃.md",
     "CTF/WEB/复现/NewStar2023/week4",
-    "CTF/WEB/复现/NewStar2023/新建文件夹",
-    "CTF/WEB/复现/NewStat2024/week2.md",
-    "CTF/WEB/复现/NewStat2024/week4.md",
-    "CTF/WEB/复现/NewStat2024/bx33661-week12.pdf",
-    "CTF/WEB/复现/NewStat2024/week3-bx33661.pdf",
-    "CTF/WEB/复现/NewStat2024",
-    "CTF/WEB/复现/新建文件夹",
-    "CTF/WEB/PHP总结ing.md",
-    "CTF/WEB/原理/文件日志泄露.md",
-    "CTF/WEB/PHP模板注入.md",
-    "CTF/密码/Python密码/例子.py",
     "工程学习/Pyhton/基本/IO编程/mylogo.jpg",
     "工程学习/Pyhton/基本/IO编程/muma.jpg",
     "未命名.canvas",
