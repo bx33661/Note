@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工程学习/概念/安全/Exp.md",
+                "file": "工程学习/Linux/systemctl.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exp"
+              "title": "systemctl"
             }
           }
         ]
@@ -146,8 +146,11 @@
   },
   "active": "70dc994edaf8f937",
   "lastOpenFiles": [
-    "软件使用/Alist.md",
+    "工程学习/概念/计网/POP3.md",
+    "工程学习/Linux/systemctl.md",
+    "工程学习/概念/计网/SMTP协议.md",
     "工程学习/概念/安全/Exp.md",
+    "软件使用/Alist.md",
     "工程学习/概念/计网/SSO单点登录.md",
     "工程学习/概念/计网/内网IP频段.md",
     "工程学习/概念/计网/网络地址转换NAT技术.md",
@@ -178,10 +181,7 @@
     "CTF/readme.md",
     "MSSQL.md",
     "CTF/WEB/SQL.md",
-    "工程学习/概念/计网/SOCKET(套接字）.md",
     "工程学习/Pyhton/网络/client.py",
-    "工程学习/概念/框架系统和模式/MFA多因素认证.md",
-    "工程学习/概念/框架系统和模式/上网认证系统.md",
     "工程学习/Pyhton/基本/IO编程/mylogo.jpg",
     "工程学习/Pyhton/基本/IO编程/muma.jpg",
     "未命名.canvas",
