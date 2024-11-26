@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工程学习/Linux/软件/curl命令.md",
+                "file": "工程学习/Linux/Linux发行版/自由软件与开源软件.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "curl命令"
+              "title": "自由软件与开源软件"
             }
           }
         ]
@@ -162,11 +162,27 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3f0989d3a124a650",
+  "active": "d511e56495ec5412",
   "lastOpenFiles": [
+    "工程学习/Linux/Linux发行版/自由软件.md",
+    "工程学习/Linux/Linux发行版/自由软件与开源软件.md",
+    "工程学习/Linux/GNU工具链.md",
+    "工程学习/Linux/Linux发行版/统信UOS.md",
+    "工程学习/Linux/Linux发行版/SUSE Linux.md",
+    "工程学习/Linux/Linux发行版/RHEL.md",
+    "工程学习/Linux/Linux发行版/Rad Hat Linux.md",
+    "工程学习/Linux/Linux发行版/Fedora Linux.md",
+    "工程学习/Linux/Linux发行版/Kail Linux.md",
+    "工程学习/Linux/Linux发行版/centos.md",
+    "工程学习/Linux/Linux发行版/Ubuntu.md",
+    "工程学习/Linux/Linux发行版/Debian.md",
+    "工程学习/概念/系统/Windows.md",
+    "工程学习/概念/系统/MacOS.md",
+    "工程学习/概念/系统/Unix.md",
+    "工程学习/Linux/软件/curl命令.md",
+    "工程学习/概念/系统",
     "工程学习/Linux/Linux发行版",
     "工程学习/Linux/软件/wget命令.md",
-    "工程学习/Linux/软件/curl命令.md",
     "工程学习/Linux/软件/Nano编辑器.md",
     "工程学习/Linux/软件/Vim编辑器.md",
     "Pasted image 20241126174234.png",
@@ -177,7 +193,6 @@
     "工程学习/概念/计网/网络地址转换NAT技术.md",
     "工程学习/概念/计网/MAC地址/MAC和IP区别.md",
     "工程学习/概念/攻防/APT（高级持续性威胁）.md",
-    "工程学习/概念/攻防/真实IP.md",
-    "工程学习/概念/攻防/跑C端.md"
+    "工程学习/概念/攻防/真实IP.md"
   ]
 }
