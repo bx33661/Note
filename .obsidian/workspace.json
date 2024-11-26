@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工程学习/概念/安全/Exp.md",
+                "file": "工程学习/Linux/软件/curl命令.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exp"
+              "title": "curl命令"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "wget",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,8 +162,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d511e56495ec5412",
+  "active": "3f0989d3a124a650",
   "lastOpenFiles": [
+    "工程学习/Linux/Linux发行版",
+    "工程学习/Linux/软件/wget命令.md",
+    "工程学习/Linux/软件/curl命令.md",
+    "工程学习/Linux/软件/Nano编辑器.md",
+    "工程学习/Linux/软件/Vim编辑器.md",
+    "Pasted image 20241126174234.png",
+    "工程学习/概念/安全/Exp.md",
+    "工程学习/Linux/软件",
     "工程学习/概念/攻防/供应链攻击.md",
     "工程学习/概念/攻防/内网横向移动.md",
     "工程学习/概念/计网/网络地址转换NAT技术.md",
