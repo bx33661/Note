@@ -35,5 +35,3 @@ systemd 是一个系统和服务管理器，负责初始化系统、管理系统
 * **检查 Docker 服务状态**：`systemctl status docker`
 * **启用 Docker 服务开机自启动**：`systemctl enable docker`
 
-### 总结
-`systemctl` 是管理 systemd 系统服务和资源的强大工具。通过了解其基本用法和常见子命令，你可以更好地控制和监控你的 Linux 系统。
