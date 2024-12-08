@@ -1,5 +1,7 @@
 ## Docker搭建记录
 
+<meta name="referrer" content="no-referrer">
+
 ---
 
 > 主要记录一下如何配置和部署docker，并且打包发布到Docker-Hub
