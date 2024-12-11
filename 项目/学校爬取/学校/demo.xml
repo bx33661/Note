@@ -1,0 +1,277 @@
+{
+  "college": {
+    "address": "",
+    "attach": {
+      "address": "友谊校区：陕西省西安市友谊西路127号,长安校区：陕西省西安市长安区东祥路1号",
+      "area": 4650,
+      "buildYear": "1938",
+      "canteen": "学校长安校区和友谊校区都有各种口味的食堂来满足广大学生的要求，长安校区晚上的烧烤、夜市等深受学生欢迎。友谊校区有美食广场、风味小吃。",
+      "college": {
+        "id": 46,
+        "name": "西北工业大学"
+      },
+      "doctorNumA": 27,
+      "doctorNumB": 0,
+      "dormitory": "男生宿舍为四人间，女生宿舍部分为四室一厅，洗澡间，暖气，洗衣房等设备一应俱全。宿舍各楼层都有活动室，书刊阅览室，电视机房，乒乓球室等。",
+      "email": "ao@nwpu.edu.cn",
+      "enrollWebsite": "http://zsb.nwpu.edu.cn",
+      "id": 46,
+      "introduce": "\u003Cp style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; font-size: 14px; color: rgb(64, 64, 64); line-height: 1.5em; text-indent: 28px; font-family: 微软雅黑; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\"\u003E\u003Cspan style=\"font-size: 18px;\"\u003E西北工业大学（简称西工大）坐落于陕西西安，是一所以发展航空、航天、航海等领域人才培养和科学研究为特色的多科性、研究型、开放式大学，是国家“双一流”建设高校，隶属于工业和信息化部。学校1960年被国务院确定为全国重点大学，“七五”“八五”均被国务院列为国家重点建设高校之一，1995年首批进入“211工程”，2001年进入“985工程”，2017年进入“一流大学”建设高校（A类）行列，是“卓越大学联盟”成员高校，是“一带一路”航天创新联盟发起高校。建校以来，学校全面贯彻党的教育方针，秉承“公诚勇毅”校训，弘扬“三实一新”（基础扎实、工作踏实、作风朴实、开拓创新）校风，确定了“五个以”（以学生为根、以育人为本、以学者为要、以学术为魂、以责任为重）的办学理念。在扎根西部、献身国防的建设历程中，学校始终坚持立德树人、育领军人才，始终坚持科技创新、铸国之重器，始终坚持与时俱进、担时代大任，为党和国家事业发展做出了重要贡献，书写了新中国历史上的多个“第一”，为武器装备研制、国防领域关键核心技术自主安全可控和西部建设提供了有力支撑，是连续两次被中共中央、国务院、中央军委联合授予“重大贡献奖”的唯一高校。学校先后获得“全国文明单位”“全国文明校园”“全国毕业生就业典型经验高校”“全国民族团结进步模范集体”“全国创先争优先进基层党组织”等荣誉称号和表彰奖励。今天在加快建设中国特色世界一流大学和一流学科上续写新的辉煌。\u003C/span\u003E\u003C/p\u003E\u003Cp style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; font-size: 14px; color: rgb(64, 64, 64); line-height: 21px; text-indent: 28px; font-family: 微软雅黑; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\"\u003E\u003Cspan style=\"font-size: 18px;\"\u003E\u003Cstrong\u003E学校办学资源富集，学科特色鲜明。\u003C/strong\u003E现有学生37000余名，教职工4300余人，占地面积310余万平方米，设有航空、航天、航海和国际教育学院、教育实验学院、西北工业大学伦敦玛丽女王大学工程学院等27个学院。拥有70个本科专业，39个硕士学位一级授权学科，27个博士学位一级授权学科。机械工程、材料科学与工程、航空宇航科学与技术3个学科入选国家第二轮“双一流”建设学科。材料科学、工程学、化学、计算机科学、物理学、地球科学、数学等7个学科进入ESI国际学科排名前1%，其中，材料科学、工程学进入前1‰，形成了以三航（航空、航天、航海）学科群为引领，3M（材料、机电、力学）学科群、3C（计算机、通信、控制）学科群、理科学科群和人文社科学科群协调发展的学科体系，为建设世界一流学科奠定了良好的基础。\u003C/span\u003E\u003C/p\u003E\u003Cp style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; font-size: 14px; color: rgb(64, 64, 64); line-height: 21px; text-indent: 28px; font-family: 微软雅黑; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\"\u003E\u003Cspan style=\"font-size: 18px;\"\u003E\u003Cstrong\u003E学校坚持立德树人，育人成效显著。\u003C/strong\u003E坚持价值塑造、能力培养、知识传授“三位一体”的人才培养理念，着力培养具有家国情怀、追求卓越、引领未来的领军人才。历史上，铸造、航空宇航制造工程、飞行力学、航空发动机、水中兵器、火箭发动机等6个学科的全国第一位工学博士由我校培养。据不完全统计，在我校为国防科技事业发展和国民经济建设输送的32万多名校友中，有50位省部级以上领导和67位将军，51位两院院士，还有6位中国十大杰出青年。在航空领域，一半以上的重大型号总师、副总师为我校校友。中国航空工业成立70周年纪念表彰的5位“航空报国功勋奖”获得者中4位为我校校友，10位“航空报国杰出奖”获得者中6位为我校校友。从2005年至今的15届航空航天月桂奖获奖者中，有26位在学校学习、工作过。在航天领域，从早年“航天三少帅”中的张庆伟和雷凡培，到中国探月工程总设计师吴伟仁等，一大批杰出校友担任国务院国资委管理的大型央企及所属企事业单位党政领导干部及副总师以上职务，相继为我国航天事业的飞速发展作出了突出贡献。航海领域同样有大批的杰出校友活跃在船舶工业、水中兵器行业的重要管理岗位与核心技术岗位上，英才辈出，不胜枚举。大批西工大学子成为行业精英、国之栋梁，在人才培养领域形成了独有的“西工大现象”，被社会誉为“总师摇篮”。\u003C/span\u003E\u003C/p\u003E\u003Cp style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; font-size: 14px; color: rgb(64, 64, 64); line-height: 1.5em; text-indent: 28px; font-family: 微软雅黑; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\"\u003E\u003Cspan style=\"font-size: 18px;\"\u003E\u003Cstrong style=\"text-indent: 2em;\"\u003E学校创新人才引育，师资力量雄厚。\u003C/strong\u003E深入实施新时代人才强校战略，坚持党对人才工作全面领导，坚持师德师风第一标准，建设适应世界一流大学发展的高水平师资队伍。设立人才特区，搭建人才集聚平台，支撑高端人才发展；实施“翱翔人才计划”，构建特色化阶梯式人才培育体系，助力青年人才成长；深化教育评价改革，把握人才成长规律，突出品德、能力和业绩；打造优质基础教育，营造以人为本的人才发展环境，提升人才的归属感、获得感和幸福感。学校汇聚了一支由1000余人次国家级高层次人才为骨干，规模适度、结构合理、质量优异、特色鲜明的高素质教师队伍，包括两院院士（含外聘）38人、长江学者37人、“万人计划”领军人才38人、“国家杰出青年科学基金”获得者29人、国家级教学名师6人,国家级团队32个，国家级青年人才168人次。\u003C/span\u003E\u003C/p\u003E\u003Cp style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; font-size: 14px; color: rgb(64, 64, 64); line-height: 21px; text-indent: 28px; font-family: 微软雅黑; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\"\u003E\u003Cspan style=\"font-size: 18px;\"\u003E\u003Cstrong\u003E学校加强教育研究，教学成果丰硕。\u003C/strong\u003E在代表全国教育教学最高荣誉的国家级教学成果奖评选中，学校屡获佳绩：2014年获国家教学成果一等奖2项、二等奖4项；2018年作为第一完成单位获国家教学成果一等奖2项、二等奖4项，作为参与完成单位获一等奖1项、二等奖1项。建有4个国家级实验教学示范中心，2个国家级虚拟仿真实验教学中心，3个国家级人才培养模式创新实验区，入选首批国家卓越工程师学院试点牵头建设单位。学校推进创新创业教育，获得首批“全国深化创新创业教育改革示范高校”“国家级创新创业教育实践基地”等荣誉称号，入选“智能制造国家专业化众创空间”；国家大学科技园获批“国家大众创业万众创新示范基地”，并在2021年获评“全国优秀国家大学科技园”。近年来，我校学生在国内外竞赛中屡创佳绩。在“互联网+”大赛全国赛中累计获得9金14银，“翱翔系列微小卫星”斩获第二届中国“互联网+”创新创业大赛全国总冠军。三年来，在“挑战杯”全国大学生课外学术科技作品竞赛、“挑战杯”中国大学生创业计划竞赛等系列赛事取得重要突破，学校连续捧得“优胜杯”。与此同时，在中国机器人大赛、全国大学生智能汽车竞赛、中国高校计算机大赛、全国海洋航行器设计与制作大赛、中国国际飞行器设计挑战赛、中国研究生创新实践系列大赛等多项赛事中，学校均位居前列。\u003C/span\u003E\u003C/p\u003E\u003Cp style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; font-size: 14px; color: rgb(64, 64, 64); line-height: 21px; text-indent: 28px; font-family: 微软雅黑; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\"\u003E\u003Cspan style=\"font-size: 18px;\"\u003E\u003Cstrong\u003E学校强化科研创新，科技贡献突出。\u003C/strong\u003E充分发挥“三航”特色优势，聚焦国家战略需求和世界科技前沿，为我国国防科技事业发展和国民经济建设作出了重大贡献。历史上，全国第一架小型无人机、第一台地效飞行器、第一型50公斤级水下无人智能航行器和第一台航空机载计算机均诞生在我校。现建有10个国家级重点实验室，8个国家级工程研究中心，4个国家级国际科技合作基地。学校深度参与了大飞机、航空发动机及燃气轮机、载人航天等国家重大专项的科研攻关，是“为中国首次载人航天飞行作出贡献单位”的两所高校之一。学校开我国无人机研制之先河，实现我国第一个无人机系统、技术、生产线全方位出口，拥有我国唯一的无人机特种技术国家重点实验室和无人机系统国家工程中心，建有我国高校唯一的无人机专业化飞行试验测试基地,全面推进无人机科研与产业发展。国庆60周年、建军90周年阅兵中，整个无人机方队由我校自主研制生产，接受党和人民的检阅；国庆70周年阅兵中,我校无人机再次通过天安门接受检阅。“十三五”以来，学校获国家三大奖20项，位居全国高校前列。\u003C/span\u003E\u003C/p\u003E\u003Cp style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; font-size: 14px; color: rgb(64, 64, 64); line-height: 21px; text-indent: 28px; font-family: 微软雅黑; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\"\u003E\u003Cspan style=\"font-size: 18px;\"\u003E\u003Cstrong\u003E学校加快成果转化，服务社会能力增强。\u003C/strong\u003E在鼓励专注教书育人、潜心研究学问的同时，充分发挥科技创新对区域经济和社会发展的支撑作用，着力推动政产学研融合发展。学校聚焦国家重大战略部署，瞄准新时代西部大开发、陕西高质量发展新篇章的发展机遇，深度融入秦创原创新驱动平台建设，扎实推进科技成果转化“三项改革”，发起成立了陕西空天动力研究院等新型研发机构，协同推进“翱翔小镇”“西安碑林环大学硬科技创新街区”建设；瞄准长三角区域一体化发展、粤港澳大湾区建设、成渝地区双城经济圈建设等区域战略，与地方政府开展深度合作，推进深圳、长三角、重庆、宁波等异地创新机构的建设。学校积极推进科技成果转化，获批首批“未来产业科技园”“高等学校科技成果转化和技术转移基地”。依托优势学科创新成果培育的铂力特、鑫垚股份、华秦科技、爱生集团等一批高新技术企业在增材制造、陶瓷复合材料、高端装备制造等领域取得丰硕成果，成为国防科技事业发展的中坚力量和区域经济发展的创新源头，逐步形成了行之有效的科技成果转化“西工大模式”。\u003C/span\u003E\u003C/p\u003E\u003Cp style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; font-size: 14px; color: rgb(64, 64, 64); line-height: 21px; text-indent: 28px; font-family: 微软雅黑; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\"\u003E\u003Cspan style=\"font-size: 18px;\"\u003E\u003Cstrong\u003E学校推进全球合作，国际地位提升。\u003C/strong\u003E构建了以欧洲为重心、拓展俄乌、辐射全球的世界一流大学国际合作网络，在助力建设人类命运共同体中不断提升国际影响力。学校先后与300余所海外高校、企业和科研院所建立亲密合作关系，世界大学排名TOP200的合作高校达到65所。国际声誉显著提升,世界大学学术排名进入全球TOP151-200。2014年，在国家主席习近平与比利时首相共同见证下，学校与比利时布鲁塞尔自由大学（VUB）签署最重要合作伙伴协议；2016年，西北工业大学伦敦玛丽女王大学工程学院正式获批，成为我国西北地区第一所中外合作办学机构，并于2020年获批硕士研究生层面中外合作办学资格。2021年4月，学校获批与德国品牌应用科学大学工业设计专业硕士研究生合作办学项目。学校拥有14个国家级国际合作平台，包括诺贝尔奖获得者在内的180余位海外国际大师被聘任为我校荣誉学衔，其中12位外国专家荣获“国家友谊奖”，获奖人数位居全国高校前列，2009年“国家友谊奖”获得者罗伯特•嘎什教授成功入选“改革开放40周年最具影响力的外国专家”（全球仅40位）。学校发起成立了“一带一路”航天创新联盟、“一带一路”文化遗产国际合作联盟和中澳工科大学联盟等多边国际交流合作平台。学校积极拓展与国际组织的合作，与亚太空间合作组织合作成立航天创新人才培养基地，与亚太工程组织联合会合作成立“一带一路”工程教育培训中心，与联合国大学国际软件技术研究所建立学生实习实践机制。\u003C/span\u003E\u003C/p\u003E\u003Cp style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; font-size: 14px; color: rgb(64, 64, 64); line-height: 21px; text-indent: 28px; font-family: 微软雅黑; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\"\u003E\u003Cspan style=\"font-size: 18px;\"\u003E在全面建设社会主义现代化国家的新征程上，学校将继续深入学习贯彻习近平新时代中国特色社会主义思想，牢记“为党育人、为国育才”使命，扎根中国大地，心怀“国之大者”，坚持面向世界科技前沿、面向经济主战场、面向国家重大需求、面向人民生命健康，不断提升科研创新能力，改革创新，锐意进取，凝心聚力，追求卓越，以更加开阔的视野，更加昂扬的姿态，更加开放的胸怀，更加扎实的工作，加快建设中国特色世界一流大学，为实现中华民族伟大复兴和人类文明进步作出更大贡献!\u003C/span\u003E\u003C/p\u003E\u003Cp\u003E\u003Cbr/\u003E\u003C/p\u003E",
+      "masterNumA": 39,
+      "masterNumB": 0,
+      "nationalSubject": 16,
+      "researchNum": 112,
+      "shortIntroduce": "西北工业大学（简称西工大）坐落于陕西西安，是一所以发展航空、航天、航海等领域人才培养和科学研究为特色",
+      "telephone": "029-88460206,029-88492310",
+      "website": "https://www.nwpu.edu.cn/"
+    },
+    "attachMedias": [
+      {
+        "id": 421,
+        "name": "校门",
+        "type": "pictures",
+        "url": "/file/college/media/3343daabaad0c2610c260938414177d9.jpg"
+      },
+      {
+        "id": 422,
+        "name": "1",
+        "type": "pictures",
+        "url": "/file/college/media/cbdc9ac012f9f9df0fcc58f7a962ea4d.jpg"
+      },
+      {
+        "id": 423,
+        "name": "4",
+        "type": "pictures",
+        "url": "/file/college/media/f9afb991fa5c46406186e9ef3967680f.jpg"
+      },
+      {
+        "id": 424,
+        "name": "8",
+        "type": "pictures",
+        "url": "/file/college/media/515ddf31ebf393463a991a739c4ebaf6.jpg"
+      },
+      {
+        "id": 425,
+        "name": "2",
+        "type": "pictures",
+        "url": "/file/college/media/5726113776c3d8a1040728c9f4bfad24.jpg"
+      },
+      {
+        "id": 426,
+        "name": "7",
+        "type": "pictures",
+        "url": "/file/college/media/04d5cda463349977da836d029cfa2729.jpg"
+      },
+      {
+        "id": 427,
+        "name": "5",
+        "type": "pictures",
+        "url": "/file/college/media/a207ece5d18e6fb49e9a80e070a2760f.jpg"
+      },
+      {
+        "id": 428,
+        "name": "校园风光",
+        "type": "pictures",
+        "url": "/file/college/media/1f727179f6510557a6f8ebae90cdbda0.jpg"
+      },
+      {
+        "id": 429,
+        "name": "西北工业大学校园风光",
+        "type": "pictures",
+        "url": "/file/college/media/2a87bcd0002fb95941877aadb7989b1f.jpg"
+      },
+      {
+        "id": 430,
+        "name": "色彩缤纷",
+        "type": "pictures",
+        "url": "/file/college/media/7958e48316b55491ab11299c62e5295a.jpg"
+      },
+      {
+        "id": 431,
+        "name": "长安晚霞",
+        "type": "pictures",
+        "url": "/file/college/media/f3eab52d2817fc1002965e083665abaa.jpg"
+      }
+    ],
+    "attachRanks": [
+      {
+        "college": {
+          "id": 46,
+          "name": "西北工业大学"
+        },
+        "id": 26,
+        "order": 26,
+        "rank": "25",
+        "topRankType": {
+          "id": 1,
+          "name": "软科",
+          "pid": 0
+        },
+        "year": ""
+      },
+      {
+        "college": {
+          "id": 46,
+          "name": "西北工业大学"
+        },
+        "id": 840,
+        "order": 26,
+        "rank": "25",
+        "subRankTypeId": 2,
+        "topRankType": {
+          "id": 1,
+          "name": "软科",
+          "pid": 0
+        },
+        "year": ""
+      },
+      {
+        "college": {
+          "id": 46,
+          "name": "西北工业大学"
+        },
+        "id": 3337,
+        "order": 23,
+        "rank": "22",
+        "topRankType": {
+          "id": 13,
+          "name": "校友会",
+          "pid": 0
+        },
+        "year": ""
+      },
+      {
+        "college": {
+          "id": 46,
+          "name": "西北工业大学"
+        },
+        "id": 4173,
+        "order": 23,
+        "rank": "22",
+        "subRankTypeId": 14,
+        "topRankType": {
+          "id": 13,
+          "name": "校友会",
+          "pid": 0
+        },
+        "year": ""
+      },
+      {
+        "college": {
+          "id": 46,
+          "name": "西北工业大学"
+        },
+        "id": 6362,
+        "order": 33,
+        "rank": "333",
+        "topRankType": {
+          "id": 21,
+          "name": "US世界",
+          "pid": 0
+        },
+        "year": ""
+      },
+      {
+        "college": {
+          "id": 46,
+          "name": "西北工业大学"
+        },
+        "id": 6704,
+        "order": 38,
+        "rank": "621-630",
+        "topRankType": {
+          "id": 22,
+          "name": "QS世界",
+          "pid": 0
+        },
+        "year": ""
+      },
+      {
+        "college": {
+          "id": 46,
+          "name": "西北工业大学"
+        },
+        "id": 6768,
+        "order": 31,
+        "rank": "25-34",
+        "topRankType": {
+          "id": 23,
+          "name": "泰晤士（大陆）",
+          "pid": 0
+        },
+        "year": ""
+      },
+      {
+        "college": {
+          "id": 46,
+          "name": "西北工业大学"
+        },
+        "id": 6856,
+        "order": 23,
+        "rank": "301–350",
+        "topRankType": {
+          "id": 24,
+          "name": "泰晤士（世界）",
+          "pid": 0
+        },
+        "year": ""
+      }
+    ],
+    "belong": "工业和信息化部",
+    "city": {
+      "first": "X",
+      "id": 2899,
+      "name": "西安市",
+      "shortname": "西安"
+    },
+    "district": {
+      "first": "B",
+      "id": 2901,
+      "name": "碑林区",
+      "shortname": "碑林"
+    },
+    "id": 46,
+    "level": {
+      "id": 1,
+      "name": "本科"
+    },
+    "logo_url": "/file/college/logos/a6654a32206a66127233164773136355.jpg",
+    "meta": "{\"qjjh\":{\"enrollArticleId\":11249}}",
+    "name": "西北工业大学",
+    "nature": {
+      "id": 1,
+      "name": "公办"
+    },
+    "province": {
+      "first": "S",
+      "id": 2898,
+      "name": "陕西省",
+      "shortname": "陕西"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "985"
+      },
+      {
+        "id": 2,
+        "name": "211"
+      },
+      {
+        "id": 3,
+        "name": "双一流"
+      },
+      {
+        "id": 4,
+        "name": "强基"
+      }
+    ],
+    "type": {
+      "id": 2,
+      "name": "理工类"
+    }
+  },
+  "meta": {
+    "is_collect": 0
+  }
+}
