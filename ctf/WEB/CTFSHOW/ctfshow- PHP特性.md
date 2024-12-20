@@ -1,5 +1,7 @@
 ## ctfshow- PHP特性
 
+[TOC]
+
 ### web89
 
 ```php
