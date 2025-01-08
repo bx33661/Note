@@ -598,3 +598,34 @@ if($_POST['param1']!==$_POST['param2']&&md5($_POST['param1'])===md5($_POST['para
 ----
 
 CTF中的弱比较和MD5绕过：https://www.qwesec.com/2024/02/ctfweb-md5.html
+
+
+
+
+
+### 补充
+
+```php
+    <?php
+        $flag="";
+        $v1=$_GET['v1'];
+        $v2=$_GET['v2'];
+        if(isset($v1) && isset($v2)){
+            if(!ctype_alpha($v1)){
+                die("v1 error");
+            }
+            if(!is_numeric($v2)){
+                die("v2 error");
+            }
+            if(md5($v1)==md5($v2)){
+                echo $flag;
+            }
+        }else{
+        
+            echo "where is flag?";
+        }
+    ?>
+```
+
+- `v1 = "QNKCDZO"`，`md5("QNKCDZO") = "0e830400451993494058024219903391"`
+- `v2 = "240610708"`，`md5("240610708") = "0e462097431906509019562988736854"`

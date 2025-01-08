@@ -88,3 +88,11 @@ command | tee [OPTION]... [FILE]...
 总结
 
 `tee` 命令非常适合在不丢失输出内容的情况下，将数据保存到文件中。它在日志记录、调试、或处理复杂的管道时非常有用。
+
+简单题目：
+1. 
+[SWPUCTF 2021 新生赛]finalrce
+https://www.nssctf.cn/problem/438
+2. 
+https://www.nssctf.cn/problem/425
+Babyrce
