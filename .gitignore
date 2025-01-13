@@ -1,2 +1,7 @@
 .github/
 .obsidian/
+.vscode/
+.DS_Store
+.gitignore
+/node_modules
+/私人笔记
