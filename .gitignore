@@ -5,3 +5,5 @@
 .gitignore
 /node_modules
 /私人笔记
+/public
+/vendor

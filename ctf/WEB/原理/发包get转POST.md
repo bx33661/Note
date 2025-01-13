@@ -1,3 +1,5 @@
+一般的发转包软件都有自动的方式
+
 get形式转成post形式需要添加几个参数
 ```http
 Content-Type: application/x-www-form-urlencoded
