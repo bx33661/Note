@@ -3,7 +3,7 @@
 
 //检测可用字符
 function is_preged($a){
-    if (!preg_match('/[\x00- 0-9A-Za-z\'"\`~_&.,|=[\x7F]+/i', $a)){
+    if (preg_match('/\&|\/|\?|\*|\<|[\x{00}-\x{20}]|\>|\'|\"|\\|\(|\)|\[|\]|\{|\}/', $a)){
         return true;
     }
 }

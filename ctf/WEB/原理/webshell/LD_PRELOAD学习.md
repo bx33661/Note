@@ -158,3 +158,23 @@ readelf [选项] ELF文件
 - **分析库文件：** 可以使用 `readelf` 分析共享库，了解库中提供的函数和符号。
 - **逆向工程：** 在逆向工程中，`readelf` 是一个非常有用的工具，可以帮助分析程序的二进制代码。
 
+
+
+
+
+## 题目学习
+
+### [0CTF]Wallbreaker_Easy
+
+```bash
+Imagick is a awesome library for hackers to break `disable_functions`.
+So I installed php-imagick in the server, opened a `backdoor` for you.
+Let's try to execute `/readflag` to get the flag.
+Open basedir: /var/www/html:/tmp/05571ffc0f0ba134f932c75082af160e
+```
+
+
+
+执行post传参：backdoor=phpinfo();
+
+![](https://gitee.com/bx33661/image/raw/master/path/image-20250113144130150.png)
