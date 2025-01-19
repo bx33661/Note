@@ -10,6 +10,8 @@
 
 等号=> `like`
 
+发现`information_schema`被过滤了，可以用`mysql.innodb_table_stats`替换`information_schema`
+
 ### 注释符号
 
 ![image-20240904121322640](https://gitee.com/bx33661/image/raw/master/path/image-20240904121322640.png)
