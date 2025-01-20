@@ -579,6 +579,10 @@ https://regexlearn.com/zh-cn/learn
 
 https://regex101.com/
 
+- 在线正则表达式可视化工具
+
+https://phphub.net/regex/
+
 - Linux特殊字符
 
 https://www.cnblogs.com/balaamwe/archive/2012/03/15/2397998.html
