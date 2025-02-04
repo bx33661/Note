@@ -1,0 +1,8 @@
+address:
+  city: Boston
+  street: 123 Main St
+age: 25
+hobbies:
+- coding
+- hiking
+name: Alice

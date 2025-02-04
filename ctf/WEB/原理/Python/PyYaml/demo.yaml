@@ -1,0 +1,18 @@
+#第一个yaml
+# 注释行
+---
+Phone:
+  - Huawei: P70
+  - Apple: 
+      Model: iPhone 13
+      Color: Black
+      Storage: 128GB
+  - Samsung:
+      Model: Galaxy S21
+      Color: Silver
+      Storage: 256GB
+  - Xiaomi:
+      Model: Mi 11
+      Color: Blue
+      Storage: 128GB
+...
