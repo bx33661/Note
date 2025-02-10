@@ -2,13 +2,19 @@
 
 ### web380
 
+访问page.php，提示：
+```php
+Notice: Undefined index: id in /var/www/html/page.php on line 16
+打开$id.php失败
+```
+
 ![image-20240918101153122](https://gitee.com/bx33661/image/raw/master/path/image-20240918101153122.png)
 
 ```
 /page.php?id=flag
 ```
 
-
+![image-20250206220554488](https://gitee.com/bx33661/image/raw/master/path/image-20250206220554488.png)
 
 ### web381
 

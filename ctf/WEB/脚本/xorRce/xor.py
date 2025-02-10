@@ -2,7 +2,7 @@ def action(arg):
     s1=""
     s2=""
     for i in arg:
-        f=open("xor.txt","r")
+        f=open("E:\gitproject\Note\CTF\WEB\脚本\xorRce\xor.txt","r")
         while True:
             t=f.readline()
             if t=="":

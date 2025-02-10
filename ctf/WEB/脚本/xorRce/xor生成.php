@@ -1,5 +1,5 @@
 <?php
-$myfile = fopen("xor.txt", "w");  
+$myfile = fopen("E:\gitproject\Note\CTF\WEB\脚本\xorRce\xor.txt", "w");  
 $contents="";
 for ($i=0; $i < 256; $i++) { 
 	for ($j=0; $j <256 ; $j++) { 
